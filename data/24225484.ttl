@@ -1,0 +1,115 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24225484/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Clin Neurol Neurosurg" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "12" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Clinical neurology and neurosurgery" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "115" .
+
+<http://tcga.deri.ie/pubmed/24225484/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Bora" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gurer" .
+
+<http://tcga.deri.ie/pubmed/24225484/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Low grade gliomas (LGGs) are slow-growing primary brain tumors with heterogeneous clinical behaviors. The aim of our study is to review the treatment outcome of 63 patients with LGGs focusing on surgical outcome and the current therapeutic strategy." .
+
+<http://tcga.deri.ie/pubmed/24225484/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Erhan" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Turkoglu" .
+
+<http://tcga.deri.ie/pubmed/24225484/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Levent" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gurses" .
+
+<http://tcga.deri.ie/pubmed/24225484/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Zeki" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sekerci" .
+
+<http://tcga.deri.ie/pubmed/24225484/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Teoman" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Donmez" .
+
+<http://tcga.deri.ie/pubmed/24225484/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Nezih A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "NA" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Oral" .
+
+<http://tcga.deri.ie/pubmed/24225484/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ahmet M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sanli" .
+
+<http://tcga.deri.ie/pubmed/24225484/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Habibullah" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Dolgun" .
+
+<http://tcga.deri.ie/pubmed/24225484>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Clinical outcome of surgically treated low-grade gliomas: a retrospective analysis of a single institute." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Neurosurgery Clinic, Ministry of Health, Diskapi Yildirim Beyazit Education and Research Hospital, 06100 Ankara, Turkey. Electronic address: drmet122@yahoo.com." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24225484/author/2> , <http://tcga.deri.ie/pubmed/24225484/author/1> , <http://tcga.deri.ie/pubmed/24225484/author/5> , <http://tcga.deri.ie/pubmed/24225484/author/8> , <http://tcga.deri.ie/pubmed/24225484/author/7> , <http://tcga.deri.ie/pubmed/24225484/author/6> , <http://tcga.deri.ie/pubmed/24225484/author/3> , <http://tcga.deri.ie/pubmed/24225484/author/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24225484/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24225484/abstract> ;
+      dcterms:identifier "pubmed:24225484" ;
+      dcterms:language "eng" ;
+      dcterms:title "Clinical outcome of surgically treated low-grade gliomas: a retrospective analysis of a single institute." .

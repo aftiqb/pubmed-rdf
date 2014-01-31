@@ -1,0 +1,202 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Male" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Male" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Nuclear Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Nuclear Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "urine" .
+
+<http://tcga.deri.ie/pubmed/22998857/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Upper urinary tract urothelial cell carcinomas (UUT-UCCs) are rare but usually invasive at diagnosis. Early diagnosis of UUT-UCCs is thus warranted. UUT has the same embryological origin with bladder and BLCA-4 is a highly sensitive and specific marker for bladder cancer. We intend to investigate the viability of BLCA-4 in detecting UUT-UCCs." .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Nuclear Matrix-Associated Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Nuclear Matrix-Associated Proteins" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Ureteral Neoplasms" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Ureteral Neoplasms" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "urine" , "diagnosis" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Middle Aged" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Middle Aged" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Female" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Female" .
+
+<http://tcga.deri.ie/pubmed/22998857/chemical/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Nuclear Matrix-Associated Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/22998857/chemical/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "BLCA-4 protein, human" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/22998857/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Q" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Q" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ding" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Aged" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Aged" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Humans" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Humans" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Kidney Neoplasms" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Kidney Neoplasms" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "urine" , "diagnosis" .
+
+<http://tcga.deri.ie/pubmed/22998857/chemical/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Tumor Markers, Biological" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/22998857/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wen" .
+
+<http://tcga.deri.ie/pubmed/22998857/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "H-W" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "HW" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Jiang" .
+
+<http://tcga.deri.ie/pubmed/22998857/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wu" .
+
+<http://tcga.deri.ie/pubmed/22998857/chemical/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Nuclear Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/22998857/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Guan" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Carcinoma, Transitional Cell" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Carcinoma, Transitional Cell" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "urine" , "diagnosis" .
+
+<http://tcga.deri.ie/pubmed/22998857/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Actas Urol Esp" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "10" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Actas urologicas españolas" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "36" .
+
+<http://tcga.deri.ie/pubmed/22998857/mesh_heading/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Tumor Markers, Biological" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Tumor Markers, Biological" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "urine" .
+
+<http://tcga.deri.ie/pubmed/22998857>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "[Urinary BLCA-4 level is useful to detect upper urinary tract urothelial cell carcinoma]." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Servicio de Urología, Hospital Huashan, Universidad Fudan, Shanghai, China. dingqiangd@hotmail.com" ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/22998857/author/4> , <http://tcga.deri.ie/pubmed/22998857/author/3> , <http://tcga.deri.ie/pubmed/22998857/author/2> , <http://tcga.deri.ie/pubmed/22998857/author/5> , <http://tcga.deri.ie/pubmed/22998857/author/6> , <http://tcga.deri.ie/pubmed/22998857/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:chemical>
+              <http://tcga.deri.ie/pubmed/22998857/chemical/4> , <http://tcga.deri.ie/pubmed/22998857/chemical/3> , <http://tcga.deri.ie/pubmed/22998857/chemical/2> , <http://tcga.deri.ie/pubmed/22998857/chemical/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/22998857/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_heading>
+              <http://tcga.deri.ie/pubmed/22998857/mesh_heading/6> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/9> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/8> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/11> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/7> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/2> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/3> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/10> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/1> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/4> , <http://tcga.deri.ie/pubmed/22998857/mesh_heading/5> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, Non-U.S. Gov't" , "English Abstract" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/22998857/abstract> ;
+      dcterms:identifier "pubmed:22998857" ;
+      dcterms:language "spa" ;
+      dcterms:title "[Urinary BLCA-4 level is useful to detect upper urinary tract urothelial cell carcinoma]." ;
+      skos:related <http://tcga.deri.ie/graph/BLCA> .
+
+<http://tcga.deri.ie/pubmed/22998857/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "C-C" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CC" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Feng" .

@@ -1,0 +1,97 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24177041/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Douglas" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Van Nostrand" .
+
+<http://tcga.deri.ie/pubmed/24177041/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Francis" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Atkins" .
+
+<http://tcga.deri.ie/pubmed/24177041/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Nucl Med Commun" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "2" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Nuclear medicine communications" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "35" .
+
+<http://tcga.deri.ie/pubmed/24177041/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jason" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wexler" .
+
+<http://tcga.deri.ie/pubmed/24177041/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mihriye" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mete" .
+
+<http://tcga.deri.ie/pubmed/24177041/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The protective effect of sialagogues following I therapy became controversial after a study proposed that sialagogues increase the reaccumulation of I in the parotid glands (PGs) to a level higher than when sialagogues are not administered ('rebound effect'). The present study examined PG radiopharmacokinetics within 2-4 h after radioiodine administration to evaluate whether sialagogues cause a 'rebound effect'." .
+
+<http://tcga.deri.ie/pubmed/24177041/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Leonard" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wartofsky" .
+
+<http://tcga.deri.ie/pubmed/24177041>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Does lemon juice increase radioiodine reaccumulation within the parotid glands more than if lemon juice is not administered?" ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Divisions of aNuclear Medicine bEndocrinology, Medstar Washington Hospital Center cDivision of Statistics, Medstar Health Research Institute, Washington, District of Columbia, USA." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24177041/author/2> , <http://tcga.deri.ie/pubmed/24177041/author/3> , <http://tcga.deri.ie/pubmed/24177041/author/5> , <http://tcga.deri.ie/pubmed/24177041/author/4> , <http://tcga.deri.ie/pubmed/24177041/author/6> , <http://tcga.deri.ie/pubmed/24177041/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24177041/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24177041/abstract> ;
+      dcterms:identifier "pubmed:24177041" ;
+      dcterms:language "eng" ;
+      dcterms:title "Does lemon juice increase radioiodine reaccumulation within the parotid glands more than if lemon juice is not administered?" .
+
+<http://tcga.deri.ie/pubmed/24177041/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Kanchan" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Kulkarni" .

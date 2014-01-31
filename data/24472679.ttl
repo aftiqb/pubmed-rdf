@@ -1,0 +1,107 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24472679/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Douglas G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "DG" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Fraser" .
+
+<http://tcga.deri.ie/pubmed/24472679/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mamas A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "MA" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mamas" .
+
+<http://tcga.deri.ie/pubmed/24472679/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Karim" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ratib" .
+
+<http://tcga.deri.ie/pubmed/24472679/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "EuroIntervention" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24472679/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Farzin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Fath-Ordoubadi" .
+
+<http://tcga.deri.ie/pubmed/24472679/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ludwig" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Neyses" .
+
+<http://tcga.deri.ie/pubmed/24472679/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Transradial (TR) coronary intervention is associated with fewer access-site-related bleeding complications and is independently associated with a lower risk of mortality following PCI compared to procedures undertaken through the femoral route. However, recent studies that have undertaken imaging of the radial artery through the use of IVUS and OCT, as well as histological studies, suggest that TR cardiac catheterisation is associated with significant injury to the radial artery wall resulting in significant endothelial cell dysfunction. The vascular endothelium plays a central role in the regulation of vascular tone, angiogenesis and vascular remodelling through the release of vasoactive mediators in response to a variety of stimuli. Hence, trauma to the vascular endothelium and subsequent changes in endothelial cell function may contribute to patterns of injury such as intimal hyperplasia and radial artery occlusion observed following TR cardiac catheterisation. Such injury patterns to the radial artery following TR procedures may limit the success and future utility of the TR approach. Minimisation of radial artery injury should be a key procedural component of procedures undertaken through the transradial approach." .
+
+<http://tcga.deri.ie/pubmed/24472679/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jim" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Nolan" .
+
+<http://tcga.deri.ie/pubmed/24472679>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Minimising radial injury: prevention is better than cure." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Manchester Heart Centre, Manchester Royal Infirmary, Biomedical Research Centre, Manchester, United Kingdom." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24472679/author/2> , <http://tcga.deri.ie/pubmed/24472679/author/1> , <http://tcga.deri.ie/pubmed/24472679/author/3> , <http://tcga.deri.ie/pubmed/24472679/author/4> , <http://tcga.deri.ie/pubmed/24472679/author/7> , <http://tcga.deri.ie/pubmed/24472679/author/6> , <http://tcga.deri.ie/pubmed/24472679/author/5> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24472679/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24472679/abstract> ;
+      dcterms:identifier "pubmed:24472679" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Minimising radial injury: prevention is better than cure." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_7296> , <http://purl.obolibrary.org/obo/NCBIGene_21672> , <http://purl.obolibrary.org/obo/NCBIGene_29338> , <http://purl.obolibrary.org/obo/NCBIGene_21752> , <http://purl.obolibrary.org/obo/NCBIGene_14062> , <http://purl.obolibrary.org/obo/NCBIGene_831548> , <http://purl.obolibrary.org/obo/NCBIGene_25439> , <http://purl.obolibrary.org/obo/NCBIGene_18858> , <http://purl.obolibrary.org/obo/NCBIGene_2149> , <http://purl.obolibrary.org/obo/NCBIGene_7037> , <http://purl.obolibrary.org/obo/NCBIGene_7015> , <http://purl.obolibrary.org/obo/NCBIGene_50493> , <http://purl.obolibrary.org/obo/NCBIGene_7001> , <http://purl.obolibrary.org/obo/NCBIGene_5376> .
+
+<http://tcga.deri.ie/pubmed/24472679/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Magdi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "El-Omar" .

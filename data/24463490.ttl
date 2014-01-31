@@ -1,0 +1,124 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24463490/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Melissa" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Dulcich" .
+
+<http://tcga.deri.ie/pubmed/24463490/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Christopher M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Denham" .
+
+<http://tcga.deri.ie/pubmed/24463490/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Christine I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CI" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Turenius" .
+
+<http://tcga.deri.ie/pubmed/24463490/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Background:Gender is increasingly recognized as an important influence on brain development, disease susceptibility, and response to pharmacologic/rehabilitative treatments. In regenerative medicine, it remains entirely unknown whether there is an interaction between transplanted stem cells and host gender that might bias efficacy and safety in some patients but not others.Methods:We examined the role of recipient gender in a neonatal rat hypoxia-ischemic injury (HII) model, treated with human female neural stem cells (hNSCs), labeled with superparamagnetic iron-oxide (SPIO) particles implanted into the contralateral cerebral ventricle. We monitored HII evolution (by MRI, histopathology, behavioral testing) and hNSC fate (migration, replication, viability).Results:Recipient gender after implantation did not influence the volume or location of ischemic injury (1, 30, or 90d) or behavior (90d). SPIO labeling did not influence HII evolution. Implantation had its greatest benefit on mild/moderate injuries which remained stable rather than increasing as in severe HII as is the natural history for such lesions.Conclusions:Our results suggest that hNSC treatment (including using hNSCs that are pre-labeled with iron to allow tracking in real time by MRI) would be equally safe and effective for male and female human newborns with mild-to-moderate HII.Pediatric Research (2014); doi:10.1038/pr.2014.7." .
+
+<http://tcga.deri.ie/pubmed/24463490/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Stephen" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ashwal" .
+
+<http://tcga.deri.ie/pubmed/24463490/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Nirmalya" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "N" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ghosh" .
+
+<http://tcga.deri.ie/pubmed/24463490/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Pediatr. Res." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Pediatric research" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24463490/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Beatriz" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Tone" .
+
+<http://tcga.deri.ie/pubmed/24463490/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Richard" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hartman" .
+
+<http://tcga.deri.ie/pubmed/24463490/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Andre" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Obenaus" .
+
+<http://tcga.deri.ie/pubmed/24463490/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Evan Y" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "EY" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Snyder" .
+
+<http://tcga.deri.ie/pubmed/24463490>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Reparative Effects of Neural Stem Cells in Neonatal Rats with Hypoxic Ischemic Injury are Not Influenced by Host Gender." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Pediatrics, Loma Linda University School of Medicine, Loma Linda, CA." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24463490/author/4> , <http://tcga.deri.ie/pubmed/24463490/author/5> , <http://tcga.deri.ie/pubmed/24463490/author/3> , <http://tcga.deri.ie/pubmed/24463490/author/1> , <http://tcga.deri.ie/pubmed/24463490/author/2> , <http://tcga.deri.ie/pubmed/24463490/author/6> , <http://tcga.deri.ie/pubmed/24463490/author/7> , <http://tcga.deri.ie/pubmed/24463490/author/9> , <http://tcga.deri.ie/pubmed/24463490/author/8> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24463490/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24463490/abstract> ;
+      dcterms:identifier "pubmed:24463490" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Reparative Effects of Neural Stem Cells in Neonatal Rats with Hypoxic Ischemic Injury are Not Influenced by Host Gender." .

@@ -1,0 +1,71 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24411089/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Latos" .
+
+<http://tcga.deri.ie/pubmed/24411089/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lesellier" .
+
+<http://tcga.deri.ie/pubmed/24411089>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Ultra high efficiency/low pressure supercritical fluid chromatography with superficially porous particles for triglyceride separation." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Institut de Chimie Organique et Analytique (ICOA), Université d'Orléans, CNRS UMR 7311, B.P. 6759, rue de Chartres, 45067 Orléans cedex 2, France. Electronic address: eric.lesellier@univ-orleans.fr." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24411089/author/2> , <http://tcga.deri.ie/pubmed/24411089/author/1> , <http://tcga.deri.ie/pubmed/24411089/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24411089/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24411089/abstract> ;
+      dcterms:identifier "pubmed:24411089" ;
+      dcterms:language "eng" ;
+      dcterms:title "Ultra high efficiency/low pressure supercritical fluid chromatography with superficially porous particles for triglyceride separation." ;
+      skos:related <http://purl.bioontology.org/ontology/PDQ/CDR0000043574> , <http://purl.obolibrary.org/obo/NCBIGene_56215> , <http://purl.obolibrary.org/obo/NCBIGene_4771> , <http://purl.obolibrary.org/obo/NCBIGene_22985> , <http://purl.obolibrary.org/obo/NCBIGene_18016> .
+
+<http://tcga.deri.ie/pubmed/24411089/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J Chromatogr A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of chromatography. A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "1327" .
+
+<http://tcga.deri.ie/pubmed/24411089/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "A Lopes" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AL" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "de Oliveira" .
+
+<http://tcga.deri.ie/pubmed/24411089/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "This paper reports the development of the separation of vegetable oil triglycerides (TG) in supercritical chromatography (SFC), using superficially porous particles (SPPs). The SPP, having a small diameter (2-3μm), provide a higher theoretical plate number (N), which allows to improve separation of critical pairs of compounds. However, compared to fully porous particles of larger diameter (5μm), the pressure drop is also increased. Fortunately, supercritical fluids have a low viscosity, which allows coupling several columns to achieve high N values, while maintaining flow rate above 1ml/min, ensuring a ultra high efficiency (UHE) at low pressure (LP) (below 40MPa), with regards to the one reached with liquid and sub-two micron particles (around 100MPa). The use of two detector systems (UV and ELSD) connected in series to the UHE-LP-SFC system provides complementary responses, due to their specific detection principles. Working in a first part with three coupled Kinetex C18 columns (45cm total length), the effect of modifier nature and percentage were studied with two reference oils, argan and rapeseed, chosen for their different and well-known TG composition. The analytical method was developed from previous studies performed with fully porous particles (FPP). Optimized conditions with three Kinetex were as follows: 17°C, 12% of ACN/MeOH (90/10; v/v). With these conditions, and by using an increased length of Kinetex C18 column (60cm), another additional column was selected from ten different commercial SPP C18 bonded phases, by applying a Derringer function on varied parameters: theoretical plate number (TPN), separation index (SI) for critical pairs of peaks (the peaks of compounds difficult to separate due to subtle structural differences), the analysis duration, and the total peak number. This function normalizes the values of any parameters, between 0 and 1, from the worst value to the better, allowing to take account of various parameters in the final choice. Finally, by using four Kinetex C18 plus one Accucore C18 (75cm total column length), a high-performance separation of triglycerides was achieved, with reasonable analysis duration and isocratic conditions. These conditions can be applied to varied vegetable oils. Identification of the numerous separated peaks of rapeseed oil was achieved by using published data and chromatographic retention behaviour." .

@@ -1,0 +1,107 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24394385/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xiaowu" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "X" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Jiang" .
+
+<http://tcga.deri.ie/pubmed/24394385/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Weiwei" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "W" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "He" .
+
+<http://tcga.deri.ie/pubmed/24394385/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Lifen" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhang" .
+
+<http://tcga.deri.ie/pubmed/24394385/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Zhenping" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Cheng" .
+
+<http://tcga.deri.ie/pubmed/24394385/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Zhuang" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Liu" .
+
+<http://tcga.deri.ie/pubmed/24394385>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Bifunctional nanoparticles with magnetism and NIR fluorescence: controlled synthesis from combination of AGET ATRP and 'click' reaction." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Jiangsu Key Laboratory of Advanced Functional Polymer Design and Application, Department of Polymer Science and Engineering, College of Chemistry, Chemical Engineering and Materials Science, Soochow University, Suzhou 215123, People's Republic of China." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24394385/author/4> , <http://tcga.deri.ie/pubmed/24394385/author/1> , <http://tcga.deri.ie/pubmed/24394385/author/3> , <http://tcga.deri.ie/pubmed/24394385/author/6> , <http://tcga.deri.ie/pubmed/24394385/author/5> , <http://tcga.deri.ie/pubmed/24394385/author/7> , <http://tcga.deri.ie/pubmed/24394385/author/2> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24394385/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24394385/abstract> ;
+      dcterms:identifier "pubmed:24394385" ;
+      dcterms:language "eng" ;
+      dcterms:title "Bifunctional nanoparticles with magnetism and NIR fluorescence: controlled synthesis from combination of AGET ATRP and 'click' reaction." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_74256> , <http://purl.obolibrary.org/obo/NCBIGene_1540> , <http://purl.obolibrary.org/obo/NCBIGene_64102> , <http://purl.obolibrary.org/obo/NCBIGene_312937> , <http://purl.obolibrary.org/obo/NCBIGene_64103> , <http://purl.obolibrary.org/obo/NCBIGene_34380> .
+
+<http://tcga.deri.ie/pubmed/24394385/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Nanotechnology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "4" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Nanotechnology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "25" .
+
+<http://tcga.deri.ie/pubmed/24394385/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xiulin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "X" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhu" .
+
+<http://tcga.deri.ie/pubmed/24394385/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Liang" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Cheng" .
+
+<http://tcga.deri.ie/pubmed/24394385/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "In this work, bifunctional nanoparticles (NPs) capable of emitting near infrared (NIR) fluorescence and generating superparamagnetism under an external magnetic field were prepared by combination of 'click' reaction and surface-initiated activators generated by electron transfer for atom transfer radical polymerization (AGET ATRP) of water-soluble poly(ethylene glycol) monomethyl ether methacrylate (PEGMA) and glycidyl methacrylate (GMA) using biocompatible iron as the catalyst on the surface of silica-coated iron oxide (Fe3O4@SiO2) NPs. The nanosized Fe3O4@SiO2@PPEGMA-co-PGMA@N3 was prepared through AGET ATRP and alkynyl bearing NIR dye was also prepared; afterwards they were integrated together by 'click' reaction. The different stages of surface modification were approved by employing different characterization techniques such as TEM, XRD, XPS, VSM and FT-IR, and the properties of the final NPs were thoroughly studied. Their suitability as dual model imaging agents for magnetic resonance (MR) and fluorescence imaging was investigated, indicating them to be a competitive candidate for imaging contrast agents." .

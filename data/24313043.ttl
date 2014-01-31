@@ -1,0 +1,248 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Iran" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Iran" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "epidemiology" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Disease Eradication" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Disease Eradication" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Humans" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Humans" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Female" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Female" .
+
+<http://tcga.deri.ie/pubmed/24313043/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Rahimzadeh" .
+
+<http://tcga.deri.ie/pubmed/24313043/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "To evaluate the need for congenital rubella syndrome prevention in our national health programme we aimed to determine the rate of anti-rubella positivity in umbilical cord blood samples 8 years after measles-rubella mass vaccination in the Islamic Republic of Iran. In a cross-sectional study we tested umbilical cord blood samples for anti-rubella IgG and IgM by ELISA in 154 deliveries at a university hospital in Tehran. Overall 72.7% of umbilical cord blood samples were positive for anti-rubella lgG and 27.3% were negative. All of the samples were negative for anti-rubella IgM. In the samples with a history of mothers' rubella vaccination, only 87.5% were positive for anti-rubella IgG. The results suggest the need for another mass vaccination for rubella in women of child-bearing age and continuation of routine vaccination of infants, plus consideration of obligatory anti-rubella IgG testing before pregnancy in women who were not vaccinated and vaccination of women before marriage." .
+
+<http://tcga.deri.ie/pubmed/24313043/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Akbari" .
+
+<http://tcga.deri.ie/pubmed/24313043/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Almassinokiani" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Hospitals, University" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Hospitals, University" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Antibodies, Viral" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Antibodies, Viral" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "immunology" .
+
+<http://tcga.deri.ie/pubmed/24313043/chemical/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Rubella Vaccine" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Adolescent" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Adolescent" .
+
+<http://tcga.deri.ie/pubmed/24313043/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Rezaei" .
+
+<http://tcga.deri.ie/pubmed/24313043/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "East. Mediterr. Health J." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "9" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Eastern Mediterranean health journal = La revue de santé de la Méditerranée orientale = al-Majallah al-ṣiḥḥīyah li-sharq al-mutawassiṭ" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "19" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/14>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Rubella Syndrome, Congenital" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Rubella Syndrome, Congenital" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "prevention & control" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/16>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Young Adult" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Young Adult" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Immunization Programs" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Immunization Programs" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "organization & administration" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/13>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Rubella" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Rubella" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "immunology" , "prevention & control" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Enzyme-Linked Immunosorbent Assay" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Enzyme-Linked Immunosorbent Assay" .
+
+<http://tcga.deri.ie/pubmed/24313043/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Saberifard" .
+
+<http://tcga.deri.ie/pubmed/24313043/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Almasi" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Fetal Blood" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Fetal Blood" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "immunology" .
+
+<http://tcga.deri.ie/pubmed/24313043/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Asadolla" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cross-Sectional Studies" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cross-Sectional Studies" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Adult" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Adult" .
+
+<http://tcga.deri.ie/pubmed/24313043/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Noorbakhsh" .
+
+<http://tcga.deri.ie/pubmed/24313043/chemical/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Antibodies, Viral" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/24313043>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "What do we need to eradicate rubella in the Islamic Republic of Iran?" ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Obstetrics and Gynaecology, Tehran University of Medical Sciences, Tehran, Islamic Republic of lran." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24313043/author/2> , <http://tcga.deri.ie/pubmed/24313043/author/8> , <http://tcga.deri.ie/pubmed/24313043/author/3> , <http://tcga.deri.ie/pubmed/24313043/author/4> , <http://tcga.deri.ie/pubmed/24313043/author/7> , <http://tcga.deri.ie/pubmed/24313043/author/6> , <http://tcga.deri.ie/pubmed/24313043/author/5> , <http://tcga.deri.ie/pubmed/24313043/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:chemical>
+              <http://tcga.deri.ie/pubmed/24313043/chemical/2> , <http://tcga.deri.ie/pubmed/24313043/chemical/1> , <http://tcga.deri.ie/pubmed/24313043/chemical/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24313043/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_heading>
+              <http://tcga.deri.ie/pubmed/24313043/mesh_heading/12> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/16> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/11> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/5> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/10> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/13> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/7> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/6> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/8> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/9> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/4> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/2> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/3> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/1> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/14> , <http://tcga.deri.ie/pubmed/24313043/mesh_heading/15> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24313043/abstract> ;
+      dcterms:identifier "pubmed:24313043" ;
+      dcterms:language "eng" ;
+      dcterms:title "What do we need to eradicate rubella in the Islamic Republic of Iran?" ;
+      skos:related <http://purl.bioontology.org/ontology/LNC/MTHU022192> , <http://purl.obolibrary.org/obo/NCBIGene_21939> , <http://purl.obolibrary.org/obo/LSM_0000053> , <http://purl.bioontology.org/ontology/LNC/LP20077-1> , <http://purl.obolibrary.org/obo/NCBIGene_958> , <http://www.bioassayontology.org/bao#BAO_0000718> , <http://purl.obolibrary.org/obo/NCBIGene_959> , <http://purl.obolibrary.org/obo/NCBIGene_21947> .
+
+<http://tcga.deri.ie/pubmed/24313043/chemical/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "rubella antibodies" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/24313043/mesh_heading/15>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Rubella Vaccine" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Rubella Vaccine" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "administration & dosage" .

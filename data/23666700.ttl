@@ -1,0 +1,158 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23666700/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Rajyalakshmi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Luthra" .
+
+<http://tcga.deri.ie/pubmed/23666700/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Mantle cell lymphoma (MCL) is characterized by the presence of t(11;14)(q13;q32) which juxtaposes CCND-1 gene (also known as BCL-1, PRAD-1) at 11q13 with an enhancer of the IGH@ gene at 14q32. The resultant overexpression of cyclin D1 plays an essential role in the pathogenesis of MCL. The breakpoints on chromosome 14 occur 5' to one of six JH segments, whereas only 30-50% of the breakpoints on chromosome 11 are localized within a 1 kb region called the major translocation cluster (MTC) which can be easily assessed by polymerase chain reaction (PCR). The remainder of the breakpoints are widely scattered over approximately 120 kb, making PCR analysis infeasible. We describe a TaqMan-based real-time PCR assay to detect and quantify IGH@/BCL1 fusion products in newly diagnosed MCL, and to monitor minimal residual disease during treatment or early relapse in MTC-positive cases." .
+
+<http://tcga.deri.ie/pubmed/23666700/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "C Cameron" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CC" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yin" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cyclin D1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cyclin D1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23666700>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Molecular detection of t(11;14)(q13;q32) in mantle cell lymphoma." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Hematopathology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23666700/author/2> , <http://tcga.deri.ie/pubmed/23666700/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:chemical>
+              <http://tcga.deri.ie/pubmed/23666700/chemical/2> , <http://tcga.deri.ie/pubmed/23666700/chemical/1> , <http://tcga.deri.ie/pubmed/23666700/chemical/3> , <http://tcga.deri.ie/pubmed/23666700/chemical/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23666700/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_heading>
+              <http://tcga.deri.ie/pubmed/23666700/mesh_heading/6> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/7> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/5> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/4> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/3> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/8> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/9> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/2> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/1> , <http://tcga.deri.ie/pubmed/23666700/mesh_heading/10> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23666700/abstract> ;
+      dcterms:identifier "pubmed:23666700" ;
+      dcterms:language "eng" ;
+      dcterms:title "Molecular detection of t(11;14)(q13;q32) in mantle cell lymphoma." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_12443> , <http://purl.obolibrary.org/obo/NCBIGene_595> , <http://purl.obolibrary.org/obo/MCBCC_0000019#CCND1> .
+
+<http://tcga.deri.ie/pubmed/23666700/chemical/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Immunoglobulin Heavy Chains" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "In Situ Hybridization, Fluorescence" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "In Situ Hybridization, Fluorescence" .
+
+<http://tcga.deri.ie/pubmed/23666700/chemical/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "IGH-CCND1 fusion protein, human" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Lymphoma, Mantle-Cell" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Lymphoma, Mantle-Cell" .
+
+<http://tcga.deri.ie/pubmed/23666700/chemical/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Oncogene Proteins, Fusion" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Immunoglobulin Heavy Chains" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Immunoglobulin Heavy Chains" .
+
+<http://tcga.deri.ie/pubmed/23666700/chemical/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Cyclin D1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "136601-57-5" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Humans" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Humans" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Oncogene Proteins, Fusion" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Oncogene Proteins, Fusion" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "isolation & purification" , "genetics" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Real-Time Polymerase Chain Reaction" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Real-Time Polymerase Chain Reaction" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Chromosomes, Human, Pair 14" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Chromosomes, Human, Pair 14" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Chromosomes, Human, Pair 11" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Chromosomes, Human, Pair 11" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" .
+
+<http://tcga.deri.ie/pubmed/23666700/mesh_heading/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Translocation, Genetic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Translocation, Genetic" .
+
+<http://tcga.deri.ie/pubmed/23666700/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Methods Mol. Biol." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Methods in molecular biology (Clifton, N.J.)" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "999" .

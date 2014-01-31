@@ -1,0 +1,151 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23464222/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "C L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CL" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Morris" .
+
+<http://tcga.deri.ie/pubmed/23464222/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "We present an assessment of x-rays and proton tomography as tools for studying the time dependence of the development of damage in fuel rods. We also show data taken with existing facilities at Los Alamos National Laboratory that support this assessment. Data on surrogate fuel rods have been taken using the 800 MeV proton radiography (pRad) facility at the Los Alamos Neutron Science Center (LANSCE), and with a 450 keV bremsstrahlung X-ray tomography facility. The proton radiography pRad facility at LANSCE can provide good position resolution (<70 μm has been demonstrate, 20 μm seems feasible with minor changes) for tomography on activated fuel rods. Bremsstrahlung x-rays may be able to provide better than 100 μm resolution but further development of sources, collimation, and detectors is necessary for x-rays to deal with the background radiation for tomography of activated fuel rods." .
+
+<http://tcga.deri.ie/pubmed/23464222/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "F G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "FG" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mariam" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "K J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "KJ" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "McClellan" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Kwiatkowski" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "J F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JF" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hunter" .
+
+<http://tcga.deri.ie/pubmed/23464222/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Rev Sci Instrum" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "2" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "The Review of scientific instruments" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "84" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Merrill" .
+
+<http://tcga.deri.ie/pubmed/23464222>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Qualitative comparison of bremsstrahlung X-rays and 800 MeV protons for tomography of urania fuel pellets." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA. cmorris@lanl.gov" ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23464222/author/1> , <http://tcga.deri.ie/pubmed/23464222/author/6> , <http://tcga.deri.ie/pubmed/23464222/author/10> , <http://tcga.deri.ie/pubmed/23464222/author/8> , <http://tcga.deri.ie/pubmed/23464222/author/9> , <http://tcga.deri.ie/pubmed/23464222/author/11> , <http://tcga.deri.ie/pubmed/23464222/author/3> , <http://tcga.deri.ie/pubmed/23464222/author/12> , <http://tcga.deri.ie/pubmed/23464222/author/4> , <http://tcga.deri.ie/pubmed/23464222/author/5> , <http://tcga.deri.ie/pubmed/23464222/author/2> , <http://tcga.deri.ie/pubmed/23464222/author/7> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23464222/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "PubMed-not-MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23464222/abstract> ;
+      dcterms:identifier "pubmed:23464222" ;
+      dcterms:language "eng" ;
+      dcterms:title "Qualitative comparison of bremsstrahlung X-rays and 800 MeV protons for tomography of urania fuel pellets." .
+
+<http://tcga.deri.ie/pubmed/23464222/author/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "D J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "DJ" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Morley" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Saunders" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "D D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "DD" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Byler" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "C F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CF" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Chen" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hogan" .
+
+<http://tcga.deri.ie/pubmed/23464222/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bourke" .

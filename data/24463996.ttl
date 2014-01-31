@@ -1,0 +1,42 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24463996/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Neuro Endocrinol. Lett." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "7" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Neuro endocrinology letters" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "34" .
+
+<http://tcga.deri.ie/pubmed/24463996>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "A case report of overlapping Bickerstaff brainstem encephalitis and Guillain-Barre syndrome." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24463996/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24463996/abstract> ;
+      dcterms:identifier "pubmed:24463996" ;
+      dcterms:language "ENG" ;
+      dcterms:title "A case report of overlapping Bickerstaff brainstem encephalitis and Guillain-Barre syndrome." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_3918> .
+
+<http://tcga.deri.ie/pubmed/24463996/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "We report a case of a 23-year-old man diagnosed with overlapping Bickerstaff brainstem encephalitis (BBE) and Guillain-Barre syndrome (GBS). The patient initially presented with fever and headache and gradually developed ataxia, disturbance of consciousness, respiratory muscle paralysis, bilateral facial paralysis and quadriplegia accompanied by significant atrophy of limb, temporalis and masseter muscles. Brain MRI revealed abnormality in the left basal ganglia, thalamus, and rightside posterior limb of the internal capsule. Electromyogram indicated neurogenic damage (mainly axonal damage) in the upper and lower limbs and bilateral facial nerve damage. Cerebrospinal fluid (CSF) collected via lumbar puncture was colorless and transparent with a pressure of 330 mm H2O. The white blood cell count in CSF was 200×106/L, the protein concentration was 1.25 g/L, and Pandy's reaction was positive. Both the blood and CSF were negative for GQ1b antibody. The patient was clinically diagnosed with overlapping BBE and GBS. After treatment with ventilatorassisted breathing, hormone therapy, neurotrophic and anti-infection therapies, and symptomatic and supportive care for more than three months, spontaneous breathing was restored. By the 5-month follow-up examination, the patient had completely recovered and returned to work. Like GBS and Fisher syndrome, BBE might be an anti-GQlb IgG antibody syndrome. Although the serum GQlb IgG antibody-positive rate for BBE is only 66%, a normal brainstem MRI or GQlb lgG antibody-negative finding cannot completely rule out BBE. Therefore, identifying critical illness polyneuropathy for patients with respiratory muscle paralysis and tracheal extubation difficulties at early stages is clinically important." .

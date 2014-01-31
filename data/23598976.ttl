@@ -1,0 +1,233 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23598976/chemical/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "DNA-Binding Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Ataxia Telangiectasia Mutated Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Ataxia Telangiectasia Mutated Proteins" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "DNA Damage" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "DNA Damage" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Humans" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Humans" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Myocardium" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Myocardium" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pathology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/13>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Neural Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Neural Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "cytology" .
+
+<http://tcga.deri.ie/pubmed/23598976/chemical/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Atm protein, mouse" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "EC 2.7.11.1" .
+
+<http://tcga.deri.ie/pubmed/23598976/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Elena" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Fusar Poli" .
+
+<http://tcga.deri.ie/pubmed/23598976/chemical/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "ATM protein, human" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "EC 2.7.11.1" .
+
+<http://tcga.deri.ie/pubmed/23598976>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Brain and induced pluripotent stem cell-derived neural stem cells as an in vitro model of neurodegeneration in ataxia-telangiectasia." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Experimental Oncology, Fondazione IRCCS Istituto Nazionale Tumori, Via Amadeo 42, 20133 Milan, Italy." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23598976/author/2> , <http://tcga.deri.ie/pubmed/23598976/author/1> , <http://tcga.deri.ie/pubmed/23598976/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:chemical>
+              <http://tcga.deri.ie/pubmed/23598976/chemical/1> , <http://tcga.deri.ie/pubmed/23598976/chemical/2> , <http://tcga.deri.ie/pubmed/23598976/chemical/7> , <http://tcga.deri.ie/pubmed/23598976/chemical/5> , <http://tcga.deri.ie/pubmed/23598976/chemical/6> , <http://tcga.deri.ie/pubmed/23598976/chemical/3> , <http://tcga.deri.ie/pubmed/23598976/chemical/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23598976/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_heading>
+              <http://tcga.deri.ie/pubmed/23598976/mesh_heading/3> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/2> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/1> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/6> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/7> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/9> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/8> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/14> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/11> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/12> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/13> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/10> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/16> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/5> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/4> , <http://tcga.deri.ie/pubmed/23598976/mesh_heading/15> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Review" , "Journal Article" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23598976/abstract> ;
+      dcterms:identifier "pubmed:23598976" ;
+      dcterms:language "eng" ;
+      dcterms:title "Brain and induced pluripotent stem cell-derived neural stem cells as an in vitro model of neurodegeneration in ataxia-telangiectasia." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_472> , <http://purl.obolibrary.org/obo/NCBIGene_11920> , <http://purl.bioontology.org/ontology/PDQ/CDR0000043121> , <http://purl.obolibrary.org/obo/NCBIGene_823975> .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/15>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Protein-Serine-Threonine Kinases" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Protein-Serine-Threonine Kinases" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "physiology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cell Cycle Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cell Cycle Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "physiology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23598976/chemical/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Cell Cycle Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Brain" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Brain" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "cytology" .
+
+<http://tcga.deri.ie/pubmed/23598976/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The ataxia telangiectasia mutated (ATM) kinase is a key transducer of the cellular response to DNA double strand breaks and its deficiency causes ataxia-telangiectasia (A-T), a pleiotropic genetic disorder primarily characterized by cerebellar neuropathy, immunodeficiency and cancer predisposition. While enormous progress has been achieved in elucidating the biochemical and functional regulation of ATM in DNA damage response, and more recently in redox signalling and antioxidant defence, the factors that make neurons in A-T extremely vulnerable remain unclear. Given also that ATM knockout mice do not recapitulate the central nervous system phenotype, a number of human neural stem cell (hNSC) model systems have been developed to provide insights into the mechanisms of neurodegeneration associated with ATM dysfunction. Here we review the hNSC systems developed by us an others to model A-T." .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Ataxia Telangiectasia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Ataxia Telangiectasia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pathology" .
+
+<http://tcga.deri.ie/pubmed/23598976/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Exp. Biol. Med. (Maywood)" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "3" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Experimental biology and medicine (Maywood, N.J.)" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "238" .
+
+<http://tcga.deri.ie/pubmed/23598976/chemical/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Tumor Suppressor Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "DNA-Binding Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "DNA-Binding Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "physiology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Induced Pluripotent Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Induced Pluripotent Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "cytology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/14>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Oxidation-Reduction" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Oxidation-Reduction" .
+
+<http://tcga.deri.ie/pubmed/23598976/chemical/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Protein-Serine-Threonine Kinases" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "EC 2.7.11.1" .
+
+<http://tcga.deri.ie/pubmed/23598976/chemical/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Ataxia Telangiectasia Mutated Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "EC 2.7.11.1" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Nerve Degeneration" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Nerve Degeneration" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pathology" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Models, Biological" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Models, Biological" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/16>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Tumor Suppressor Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Tumor Suppressor Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "physiology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23598976/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Luigi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Carlessi" .
+
+<http://tcga.deri.ie/pubmed/23598976/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Domenico" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Delia" .
+
+<http://tcga.deri.ie/pubmed/23598976/mesh_heading/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cells, Cultured" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cells, Cultured" .

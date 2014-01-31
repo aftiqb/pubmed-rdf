@@ -1,0 +1,107 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24474195/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jianshu" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Dong" .
+
+<http://tcga.deri.ie/pubmed/24474195>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Crystal structure of E. coli arginyl-tRNA synthetase and ligand binding studies revealed key residues in arginine recognition." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Laboratory of Non-coding RNA, Institute of Biophysics, Chinese Academy of Sciences, Beijing, 100101, China." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24474195/author/4> , <http://tcga.deri.ie/pubmed/24474195/author/1> , <http://tcga.deri.ie/pubmed/24474195/author/7> , <http://tcga.deri.ie/pubmed/24474195/author/2> , <http://tcga.deri.ie/pubmed/24474195/author/5> , <http://tcga.deri.ie/pubmed/24474195/author/3> , <http://tcga.deri.ie/pubmed/24474195/author/6> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24474195/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24474195/abstract> ;
+      dcterms:identifier "pubmed:24474195" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Crystal structure of E. coli arginyl-tRNA synthetase and ligand binding studies revealed key residues in arginine recognition." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_287191> , <http://purl.obolibrary.org/obo/NCBIGene_5917> , <http://purl.obolibrary.org/obo/NCBIGene_109093> , <http://purl.obolibrary.org/obo/NCBIGene_57038> , <http://purl.obolibrary.org/obo/NCBIGene_104458> , <http://purl.obolibrary.org/obo/NCBIGene_297969> .
+
+<http://tcga.deri.ie/pubmed/24474195/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Protein Cell" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Protein & cell" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24474195/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The arginyl-tRNA synthetase (ArgRS) catalyzes the esterification reaction between L-arginine and its cognate tRNA(Arg). Previously reported structures of ArgRS shed considerable light on the tRNA recognition mechanism, while the aspect of amino acid binding in ArgRS remains largely unexplored. Here we report the first crystal structure of E. coli ArgRS (eArgRS) complexed with L-arginine, and a series of mutational studies using isothermal titration calorimetry (ITC). Combined with previously reported work on ArgRS, our results elucidated the structural and functional roles of a series of important residues in the active site, which furthered our understanding of this unique enzyme." .
+
+<http://tcga.deri.ie/pubmed/24474195/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Weimin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "W" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gong" .
+
+<http://tcga.deri.ie/pubmed/24474195/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Kelei" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bi" .
+
+<http://tcga.deri.ie/pubmed/24474195/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Yueting" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Y" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zheng" .
+
+<http://tcga.deri.ie/pubmed/24474195/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Feng" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gao" .
+
+<http://tcga.deri.ie/pubmed/24474195/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jiangyun" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wang" .
+
+<http://tcga.deri.ie/pubmed/24474195/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Yi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Y" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wang" .

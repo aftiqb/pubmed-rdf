@@ -1,0 +1,107 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24324465>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Maternal Supplementation with LGG Reduces Vaccine-Specific Immune Responses in Infants at High-Risk of Developing Allergic Disease." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Allergy and Immune Disorders, Murdoch Childrens Research Institute , Melbourne, VIC , Australia ; Department of Paediatrics, University of Melbourne , Melbourne, VIC , Australia." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24324465/author/3> , <http://tcga.deri.ie/pubmed/24324465/author/4> , <http://tcga.deri.ie/pubmed/24324465/author/5> , <http://tcga.deri.ie/pubmed/24324465/author/7> , <http://tcga.deri.ie/pubmed/24324465/author/6> , <http://tcga.deri.ie/pubmed/24324465/author/1> , <http://tcga.deri.ie/pubmed/24324465/author/2> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24324465/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Electronic-eCollection" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "PubMed-not-MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24324465/abstract> ;
+      dcterms:identifier "pubmed:24324465" ;
+      dcterms:language "eng" ;
+      dcterms:title "Maternal Supplementation with LGG Reduces Vaccine-Specific Immune Responses in Infants at High-Risk of Developing Allergic Disease." ;
+      skos:related <http://tcga.deri.ie/graph/LGG> .
+
+<http://tcga.deri.ie/pubmed/24324465/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Anne" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Balloch" .
+
+<http://tcga.deri.ie/pubmed/24324465/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Milton" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mui" .
+
+<http://tcga.deri.ie/pubmed/24324465/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Edwin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hoe" .
+
+<http://tcga.deri.ie/pubmed/24324465/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mimi L K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "ML" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Tang" .
+
+<http://tcga.deri.ie/pubmed/24324465/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Probiotics are defined as live micro-organisms that when administered in adequate amounts confer a health benefit on the host. Among their pleiotropic effects, inhibition of pathogen colonization at the mucosal surface as well as modulation of immune responses are widely recognized as the principal biological activities of probiotic bacteria. In recent times, the immune effects of probiotics have led to their application as vaccine adjuvants, offering a novel strategy for enhancing the efficacy of current vaccines. Such an approach is particularly relevant in regions where infectious disease burden is greatest and where access to complete vaccination programs is limited. In this study, we report the effects of the probiotic, Lactobacillus rhamnosus GG (LGG) on immune responses to tetanus, Haemophilus influenzae type b (Hib) and pneumococcal conjugate (PCV7) vaccines in infants. This study was conducted as part of a larger clinical trial assessing the impact of maternal LGG supplementation in preventing the development of atopic eczema in infants at high-risk for developing allergic disease. Maternal LGG supplementation was associated with reduced antibody responses against tetanus, Hib, and pneumococcal serotypes contained in PCV7 (N = 31) compared to placebo treatment (N = 30) but not total IgG levels. Maternal LGG supplementation was also associated with a trend to increased number of tetanus toxoid-specific T regulatory in the peripheral blood compared to placebo-treated infants. These findings suggest that maternal LGG supplementation may not be beneficial in terms of improving vaccine-specific immunity in infants. Further clinical studies are needed to confirm these findings. As probiotic immune effects can be species/strain specific, our findings do not exclude the potential use of other probiotic bacteria to modulate infant immune responses to vaccines." .
+
+<http://tcga.deri.ie/pubmed/24324465/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Karen" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lamb" .
+
+<http://tcga.deri.ie/pubmed/24324465/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Paul V" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "PV" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Licciardi" .
+
+<http://tcga.deri.ie/pubmed/24324465/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Front Immunol" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Frontiers in immunology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "4" .
+
+<http://tcga.deri.ie/pubmed/24324465/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Intan H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "IH" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ismail" .

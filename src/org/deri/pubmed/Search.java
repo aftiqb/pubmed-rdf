@@ -85,8 +85,6 @@ public class Search {
 	        for (int i = 0; i < nl.getLength(); i++) {
 	        	Element ele = (Element) nl.item(i);
 	        	lstIDs.add(ele.getTextContent());
-//	        	System.out.println("publishing article: " + ele.getTextContent());
-//	        	obj.getArticle(ele.getTextContent(), graphURI, filePath, diseaseBanner);
 	        }
 	        
 		} catch(Exception ex) {
@@ -95,7 +93,6 @@ public class Search {
 			return null;
 		}
 		
-        //System.out.println(lstIDs.size());
 		return lstIDs;
 	}
 	
@@ -136,16 +133,14 @@ public class Search {
 	    	write.newLine();
 	    	write.flush();
 	    }
-	    catch (Exception e) {//Catch exception if any
+	    catch (Exception e) {
 	    	      System.err.println("Exception occured while writing data: " + e.getMessage());
 	    }
 	}
 	
 	public static void main(String[] args) {
 		Search obj = new Search();
-		//obj.searchTerm("blca", "http://tcga.deri.ie/graph/blca", "data/"); //blca, laml, hnsc, kirp, cesc, read, lgg, prad, lusc, skcm
-		obj.searchTerm("lusc", "http://tcga.deri.ie/graph/lusc", "data/"); 
-		//obj.searchTerm("ATXN1", "", "data/Gene-related/");
+		obj.searchTerm("blca", "http://tcga.deri.ie/graph/blca", "data/"); //blca, laml, hnsc, kirp, cesc, read, lgg, prad, lusc, skcm
 	}
 
 

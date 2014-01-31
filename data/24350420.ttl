@@ -1,0 +1,252 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24350420/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Panida" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Charnchaowanish" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Prapaluck" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Chaicharoen" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Theerapol" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Witthiwej" .
+
+<http://tcga.deri.ie/pubmed/24350420/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J Med Assoc Thai" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "10" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of the Medical Association of Thailand = Chotmaihet thangphaet" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "96" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sirion" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Tritrakarn" .
+
+<http://tcga.deri.ie/pubmed/24350420/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "To evaluate the usefulness of advanced MRI techniques in differentiating high-grade (HGG) from low-grade gliomas (LGG)." .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/18>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Middle Aged" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Middle Aged" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/14>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Image Interpretation, Computer-Assisted" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Image Interpretation, Computer-Assisted" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Glioma" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Glioma" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "diagnosis" , "pathology" .
+
+<http://tcga.deri.ie/pubmed/24350420>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Diagnostic performance of advanced MRI in differentiating high-grade from low-grade gliomas in a setting of routine service." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Radiology, Faculty of Medicine Siriraj Hospital, Mahidol University, Bangkok, Thailand. oak_art@yahoo.com" ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24350420/author/9> , <http://tcga.deri.ie/pubmed/24350420/author/7> , <http://tcga.deri.ie/pubmed/24350420/author/8> , <http://tcga.deri.ie/pubmed/24350420/author/2> , <http://tcga.deri.ie/pubmed/24350420/author/3> , <http://tcga.deri.ie/pubmed/24350420/author/1> , <http://tcga.deri.ie/pubmed/24350420/author/4> , <http://tcga.deri.ie/pubmed/24350420/author/5> , <http://tcga.deri.ie/pubmed/24350420/author/6> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24350420/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_heading>
+              <http://tcga.deri.ie/pubmed/24350420/mesh_heading/20> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/19> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/18> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/14> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/13> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/8> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/6> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/5> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/7> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/15> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/12> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/10> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/17> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/3> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/9> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/11> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/16> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/4> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/2> , <http://tcga.deri.ie/pubmed/24350420/mesh_heading/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24350420/abstract> ;
+      dcterms:identifier "pubmed:24350420" ;
+      dcterms:language "eng" ;
+      dcterms:title "Diagnostic performance of advanced MRI in differentiating high-grade from low-grade gliomas in a setting of routine service." .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cerebrovascular Circulation" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cerebrovascular Circulation" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Blood Volume" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Blood Volume" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Diffusion Magnetic Resonance Imaging" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Diffusion Magnetic Resonance Imaging" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Aged" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Aged" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Diagnosis, Differential" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Diagnosis, Differential" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tumtip" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sangruchi" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/16>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Magnetic Resonance Spectroscopy" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Magnetic Resonance Spectroscopy" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Adolescent" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Adolescent" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Thanyaporn" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Direksunthorn" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/20>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Prospective Studies" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Prospective Studies" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sith" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sathornsumetee" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/19>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Neoplasm Grading" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Neoplasm Grading" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Siriwan" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Piyapittayanan" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Child" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Child" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Brain Neoplasms" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Brain Neoplasms" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "diagnosis" , "pathology" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/13>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Humans" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Humans" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/15>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Magnetic Resonance Imaging" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Magnetic Resonance Imaging" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "methods" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/17>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Male" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Male" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Female" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Female" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Anisotropy" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Anisotropy" .
+
+<http://tcga.deri.ie/pubmed/24350420/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Orasa" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "O" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Chawalparit" .
+
+<http://tcga.deri.ie/pubmed/24350420/mesh_heading/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Adult" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Adult" .

@@ -1,0 +1,116 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24388700>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Expression of receptors for BMP15 is differentially regulated in dominant and subordinate follicles during follicle deviation in cattle." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Laboratory of Biotechnology and Animal Reproduction - BioRep, Federal University of Santa Maria, Santa Maria, RS, Brazil. Electronic address: bggasperin@gmail.com." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24388700/author/7> , <http://tcga.deri.ie/pubmed/24388700/author/3> , <http://tcga.deri.ie/pubmed/24388700/author/8> , <http://tcga.deri.ie/pubmed/24388700/author/4> , <http://tcga.deri.ie/pubmed/24388700/author/1> , <http://tcga.deri.ie/pubmed/24388700/author/2> , <http://tcga.deri.ie/pubmed/24388700/author/6> , <http://tcga.deri.ie/pubmed/24388700/author/5> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24388700/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24388700/abstract> ;
+      dcterms:identifier "pubmed:24388700" ;
+      dcterms:language "eng" ;
+      dcterms:title "Expression of receptors for BMP15 is differentially regulated in dominant and subordinate follicles during follicle deviation in cattle." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_2255> , <http://purl.obolibrary.org/obo/NCBIGene_659> , <" "> , <http://purl.obolibrary.org/obo/NCBIGene_25443> , <http://purl.obolibrary.org/obo/NCBIGene_12168> , <http://purl.obolibrary.org/obo/NCBIGene_14165> , <http://purl.obolibrary.org/obo/NCBIGene_12167> , <http://purl.org/skeletome/bonedysplasia#G0000082> , <http://purl.org/skeletome/bonedysplasia#G0000059> , <http://purl.obolibrary.org/obo/KEGG#_K04671> , <http://purl.obolibrary.org/obo/NCBIGene_658> .
+
+<http://tcga.deri.ie/pubmed/24388700/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "João F C" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JF" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Oliveira" .
+
+<http://tcga.deri.ie/pubmed/24388700/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Monique T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "MT" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Rovani" .
+
+<http://tcga.deri.ie/pubmed/24388700/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Paulo B D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "PB" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gonçalves" .
+
+<http://tcga.deri.ie/pubmed/24388700/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Vilceu" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "V" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bordignon" .
+
+<http://tcga.deri.ie/pubmed/24388700/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Bone morphogenetic proteins are known to be involved in determining ovulation rate in mammals. The mechanisms through which these proteins determine follicle fate are incompletely understood. In the present study, we used cattle as a model to evaluate the regulation of BMP15 and GDF9 receptors in granulosa cells during dominant follicle (DF) selection. Before follicular deviation (day 2 of the follicular wave), BMPR2 mRNA abundance tended to be higher in the second largest follicles (F2; P<0.1) compared to the future dominant follicle (F1). At the expected time of follicular deviation (day 3), BMPR2 and BMPR1B mRNA levels were higher in subordinate follicles (SFs; P<0.05) compared to dominant follicles (DFs). After deviation (on day 4), BMPR1B mRNA and protein were significantly more abundant in atretic SFs (as assessed by cleaved caspase 3) than in DFs. The fact that BMPR1B is more expressed in atretic follicles was further confirmed by using intrafollicular treatment with two agents known to induce atresia, namely an estradiol receptor antagonist (fulvestrant) and FGF10. In conclusion, the fact that BMPR-1B and -2 are more expressed in the second largest follicles before and at the expected time of follicular deviation is indicative of their inhibitory role in follicle differentiation and steroidogenesis. BMPR1B also seems to have a pivotal role during follicle regression since it is upregulated in advanced atretic follicles." .
+
+<http://tcga.deri.ie/pubmed/24388700/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Bernardo G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "BG" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gasperin" .
+
+<http://tcga.deri.ie/pubmed/24388700/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Rogério" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ferreira" .
+
+<http://tcga.deri.ie/pubmed/24388700/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Anim. Reprod. Sci." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "3-4" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Animal reproduction science" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "144" .
+
+<http://tcga.deri.ie/pubmed/24388700/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "José" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Buratini" .
+
+<http://tcga.deri.ie/pubmed/24388700/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Raj" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Duggavathi" .

@@ -1,0 +1,133 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24396034>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Homing of Neural Stem Cells From the Venous Compartment Into a Brain Infarct Does Not Involve Conventional Interactions With Vascular Endothelium." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Torrey Pines Institute for Molecular Studies, San Diego, California, USA; Sanford-Burnham Medical Research Institute, La Jolla, California, USA; America Stem Cell Inc., San Diego, California, USA; Cascade LifeSciences Inc., San Diego, California, USA." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24396034/author/1> , <http://tcga.deri.ie/pubmed/24396034/author/7> , <http://tcga.deri.ie/pubmed/24396034/author/6> , <http://tcga.deri.ie/pubmed/24396034/author/8> , <http://tcga.deri.ie/pubmed/24396034/author/4> , <http://tcga.deri.ie/pubmed/24396034/author/9> , <http://tcga.deri.ie/pubmed/24396034/author/2> , <http://tcga.deri.ie/pubmed/24396034/author/3> , <http://tcga.deri.ie/pubmed/24396034/author/10> , <http://tcga.deri.ie/pubmed/24396034/author/5> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24396034/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24396034/abstract> ;
+      dcterms:identifier "pubmed:24396034" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Homing of Neural Stem Cells From the Venous Compartment Into a Brain Infarct Does Not Involve Conventional Interactions With Vascular Endothelium." .
+
+<http://tcga.deri.ie/pubmed/24396034/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Valentina" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "V" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Goncharova" .
+
+<http://tcga.deri.ie/pubmed/24396034/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Human neural stem cells (hNSCs) hold great potential for treatment of a wide variety of neurodegenerative and neurotraumatic conditions. Heretofore, administration has been through intracranial injection or implantation of cells. Because neural stem cells are capable of migrating to the injured brain from the intravascular space, it seemed feasible to administer them intravenously if their ability to circumvent the blood-brain barrier was enhanced. In the present studies, we found that interactions of hNSCs in vitro on the luminal surface of human umbilical vein endothelial cells was enhanced following enforced expression of cutaneous lymphocyte antigen on cell surface moieties by incubation of hNSCs with fucosyltransferase VI and GDP-fucose (fhNSCs). Interestingly, ex vivo fucosylation of hNSCs not only did not improve the cells homing into the brain injured by stroke following intravenous administration but also increased mortality of rats compared with the nonfucosylated hNSC group. Efforts to explain these unexpected findings using a three-dimensional flow chamber device revealed that transmigration of fhNSCs (under conditions of physiological shear stress) mediated by stromal cell-derived factor 1α was significantly decreased compared with controls. Further analysis revealed that hNSCs poorly withstand physiological shear stress, and their ability is further decreased following fucosylation. In addition, fhNSCs demonstrated a higher frequency of cellular aggregate formation as well as a tendency for removal of fucose from the cell surface. In summary, our findings suggest that the behavior of hNSCs in circulation is different from that observed with other cell types and that, at least for stroke, intravenous administration is a suboptimal route, even when the in vitro rolling ability of hNSCs is optimized by enforced fucosylation." .
+
+<http://tcga.deri.ie/pubmed/24396034/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Evan Y" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "EY" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Snyder" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Dustin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wakeman" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tatiana" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Povaly" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Leonard" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Miller" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ingrid" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Schraufstatter" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Shreyasi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Das" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Walter" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "W" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Niles" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sophia K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "SK" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Khaldoyanidi" .
+
+<http://tcga.deri.ie/pubmed/24396034/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Stem Cells Transl Med" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Stem cells translational medicine" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24396034/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Aaron K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AK" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wong" .

@@ -1,0 +1,79 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23811386/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Marie" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Trovaslet" .
+
+<http://tcga.deri.ie/pubmed/23811386>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Progress in the development of enzyme-based nerve agent bioscavengers." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Institut de Recherche Biomédicale des Armées, BP87, 38702 La Tronche Cédex, France. Electronic address: florian@nachon.net." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23811386/author/3> , <http://tcga.deri.ie/pubmed/23811386/author/1> , <http://tcga.deri.ie/pubmed/23811386/author/2> , <http://tcga.deri.ie/pubmed/23811386/author/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23811386/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23811386/abstract> ;
+      dcterms:identifier "pubmed:23811386" ;
+      dcterms:language "eng" ;
+      dcterms:title "Progress in the development of enzyme-based nerve agent bioscavengers." .
+
+<http://tcga.deri.ie/pubmed/23811386/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Chem. Biol. Interact." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "3" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Chemico-biological interactions" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "206" .
+
+<http://tcga.deri.ie/pubmed/23811386/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Florian" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Nachon" .
+
+<http://tcga.deri.ie/pubmed/23811386/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xavier" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "X" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Brazzolotto" .
+
+<http://tcga.deri.ie/pubmed/23811386/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Patrick" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Masson" .
+
+<http://tcga.deri.ie/pubmed/23811386/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Acetylcholinesterase is the physiological target for acute toxicity of nerve agents. Attempts to protect acetylcholinesterase from phosphylation by nerve agents, is currently achieved by reversible inhibitors that transiently mask the enzyme active site. This approach either protects only peripheral acetylcholinesterase or may cause side effects. Thus, an alternative strategy consists in scavenging nerve agents in the bloodstream before they can reach acetylcholinesterase. Pre- or post-exposure administration of bioscavengers, enzymes that neutralize and detoxify organophosphorus molecules, is one of the major developments of new medical counter-measures. These enzymes act either as stoichiometric or catalytic bioscavengers. Human butyrylcholinesterase is the leading stoichiometric bioscavenger. Current efforts are devoted to its mass production with care to pharmacokinetic properties of the final product for extended lifetime. Development of specific reactivators of phosphylated butyrylcholinesterase, or variants with spontaneous reactivation activity is also envisioned for rapid in situ regeneration of the scavenger. Human paraoxonase 1 is the leading catalytic bioscavenger under development. Research efforts focus on improving its catalytic efficiency toward the most toxic isomers of nerve agents, by means of directed evolution-based strategies. Human prolidase appears to be another promising human enzyme. Other non-human efficient enzymes like bacterial phosphotriesterases or squid diisopropylfluorophosphatase are also considered though their intrinsic immunogenic properties remain challenging for use in humans. Encapsulation, PEGylation and other modifications are possible solutions to address this problem as well as that of their limited lifetime. Finally, gene therapy for in situ generation and delivery of bioscavengers is for the far future, but its proof of concept has been established." .

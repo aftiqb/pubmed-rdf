@@ -1,0 +1,97 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24436845/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Transplantation of human fetal neural stem cells (hNSCs) previously demonstrated significant functional recovery after spinal cord contusion in rats. Other studies indicated that human mesenchymal stem cells (hMSCs) can home to areas of damage and cross the blood-brain barrier. The purpose of this article is to determine if combined administration of mesenchymal stem cells and neuronal stem cells improves functional outcomes in rats. The study design was a randomized controlled animal trial. Female adult Long-Evans hooded rats underwent laminectomy at T10 level. Moderate spinal cord contusion at T10 level was induced by the MASCIS Impactor. Four groups were identified. The MSC + NSC group received hMSCs intravenously (IV) immediately after spinal cord injury (acute) and returned 1 week later (subacute) for injection of hNSC directly at site of injury. The MSC-only group received hMSC IV acutely and cell media subacutely. The NSC-only group received cell media IV acutely and hNSC subacutely. The control group received cell media IV acutely and subacutely. Subjects were assessed for 6 weeks using Basso, Beattie, Bresnahan Locomotor Rating Score. Twenty-four subjects were utilized, six subjects in each group. Statistically significant functional improvement was seen in the MSC + NSC group and the NSC-only group versus controls (p = 0.027, 0.042, respectively). The MSC-only group did not demonstrate a significant improvement over control (p = 0.145). Comparing the MSC + NSC group and the NSC-only group, there was no significant difference (p = 0.357). Subacute transplantation of hNSCs into contused spinal cord of rats led to significant functional recovery when injected either with or without acute IV administration of hMSCs. Neither hMSCs nor addition of hMSC to hNSC resulted in significant improvement." .
+
+<http://tcga.deri.ie/pubmed/24436845/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "R L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "RL" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Smith" .
+
+<http://tcga.deri.ie/pubmed/24436845/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "D Y" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "DY" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Park" .
+
+<http://tcga.deri.ie/pubmed/24436845/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "R E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "RE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mayle" .
+
+<http://tcga.deri.ie/pubmed/24436845/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Corcoran-Schwartz" .
+
+<http://tcga.deri.ie/pubmed/24436845>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Combined Transplantation of Human Neuronal and Mesenchymal Stem Cells following Spinal Cord Injury." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Orthopaedic Surgery, Stanford University School of Medicine, Stanford, California." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24436845/author/3> , <http://tcga.deri.ie/pubmed/24436845/author/1> , <http://tcga.deri.ie/pubmed/24436845/author/2> , <http://tcga.deri.ie/pubmed/24436845/author/4> , <http://tcga.deri.ie/pubmed/24436845/author/5> , <http://tcga.deri.ie/pubmed/24436845/author/6> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24436845/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "PubMed-not-MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24436845/abstract> ;
+      dcterms:identifier "pubmed:24436845" ;
+      dcterms:language "eng" ;
+      dcterms:title "Combined Transplantation of Human Neuronal and Mesenchymal Stem Cells following Spinal Cord Injury." .
+
+<http://tcga.deri.ie/pubmed/24436845/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "A I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AI" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Kharazi" .
+
+<http://tcga.deri.ie/pubmed/24436845/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Cheng" .
+
+<http://tcga.deri.ie/pubmed/24436845/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Global Spine J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Global spine journal" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "3" .

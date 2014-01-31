@@ -1,0 +1,71 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24403485/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Anticancer Res." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Anticancer research" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "34" .
+
+<http://tcga.deri.ie/pubmed/24403485/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tomaz" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Smigoc" .
+
+<http://tcga.deri.ie/pubmed/24403485/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Aim: To determine any correlation between inflammation parameters in blood glioma patients, with some of the established glioma biomarkers and to evaluate the possible prognostic impact of erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) for patient survival." .
+
+<http://tcga.deri.ie/pubmed/24403485/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tadej" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Strojnik" .
+
+<http://tcga.deri.ie/pubmed/24403485/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tamara T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "TT" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lah" .
+
+<http://tcga.deri.ie/pubmed/24403485>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Prognostic value of erythrocyte sedimentation rate and C-reactive protein in the blood of patients with glioma." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Neurosurgery, Maribor Clinical Centre, Ljubljanska 5, SI-2000 Maribor, Slovenia. tadejstrojnik@gmail.com." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24403485/author/2> , <http://tcga.deri.ie/pubmed/24403485/author/1> , <http://tcga.deri.ie/pubmed/24403485/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24403485/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24403485/abstract> ;
+      dcterms:identifier "pubmed:24403485" ;
+      dcterms:language "eng" ;
+      dcterms:title "Prognostic value of erythrocyte sedimentation rate and C-reactive protein in the blood of patients with glioma." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_34956> , <http://www.shojaee.com/shr/shr.owl#CRP> , <http://doe-generated-ontology.com/OntoPneumo#TauxDeCRP> , <http://purl.obolibrary.org/obo/NCBIGene_1401> .

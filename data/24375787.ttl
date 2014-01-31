@@ -1,0 +1,277 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24375787/author/23>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Miran" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Skrap" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/21>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Loredana" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Casalis" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/14>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Stefano" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Pizzolitto" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Stefania" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Marzinotto" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Marisa" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sorrentino" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/18>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Maria Elisabetta" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "ME" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ruaro" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Miriam" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Isola" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Evgenia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bourkoula" .
+
+<http://tcga.deri.ie/pubmed/24375787>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Glioma-associated stem cells: A novel class of tumor-supporting cells able to predict prognosis of human low-grade gliomas." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Medical and Biological Sciences, University of Udine, Udine, 33100, Italy." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24375787/author/23> , <http://tcga.deri.ie/pubmed/24375787/author/21> , <http://tcga.deri.ie/pubmed/24375787/author/14> , <http://tcga.deri.ie/pubmed/24375787/author/7> , <http://tcga.deri.ie/pubmed/24375787/author/5> , <http://tcga.deri.ie/pubmed/24375787/author/9> , <http://tcga.deri.ie/pubmed/24375787/author/18> , <http://tcga.deri.ie/pubmed/24375787/author/1> , <http://tcga.deri.ie/pubmed/24375787/author/3> , <http://tcga.deri.ie/pubmed/24375787/author/11> , <http://tcga.deri.ie/pubmed/24375787/author/16> , <http://tcga.deri.ie/pubmed/24375787/author/26> , <http://tcga.deri.ie/pubmed/24375787/author/15> , <http://tcga.deri.ie/pubmed/24375787/author/22> , <http://tcga.deri.ie/pubmed/24375787/author/13> , <http://tcga.deri.ie/pubmed/24375787/author/24> , <http://tcga.deri.ie/pubmed/24375787/author/20> , <http://tcga.deri.ie/pubmed/24375787/author/6> , <http://tcga.deri.ie/pubmed/24375787/author/17> , <http://tcga.deri.ie/pubmed/24375787/author/19> , <http://tcga.deri.ie/pubmed/24375787/author/8> , <http://tcga.deri.ie/pubmed/24375787/author/2> , <http://tcga.deri.ie/pubmed/24375787/author/10> , <http://tcga.deri.ie/pubmed/24375787/author/25> , <http://tcga.deri.ie/pubmed/24375787/author/12> , <http://tcga.deri.ie/pubmed/24375787/author/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24375787/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24375787/abstract> ;
+      dcterms:identifier "pubmed:24375787" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Glioma-associated stem cells: A novel class of tumor-supporting cells able to predict prognosis of human low-grade gliomas." .
+
+<http://tcga.deri.ie/pubmed/24375787/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tamara" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ius" .
+
+<http://tcga.deri.ie/pubmed/24375787/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Stem cells (Dayton, Ohio)" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Federica" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Caponnetto" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/16>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Giovanna" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "De Maglio" .
+
+<http://tcga.deri.ie/pubmed/24375787/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Background: Translational medicine aims at transferring advances in basic science research into new approaches for diagnosis and treatment of diseases. Low-grade gliomas (LGG) have a heterogeneous clinical behavior that can be only partially predicted employing current state-of-the-art markers, hindering the decision-making process. To deepen our comprehension on tumor heterogeneity, we dissected the mechanism of interaction between tumor cells and relevant components of the neoplastic environment, isolating, from LGG and high-grade gliomas (HGG), proliferating stem cell lines from both the glioma stroma and, where possible, the neoplasm. Methods and Findings: we isolated glioma-associated stem cells (GASC) from LGG (n=40) and HGG (n=73). GASC showed stem cell features, anchorage-independent growth, and supported the malignant properties of both A172 cells and human glioma-stem cells (GSC), mainly through the release of exosomes. Finally, starting from GASC obtained from HGG (n=13) and LGG (n=12) we defined a score, based on the expression of 9 GASC surface markers, whose prognostic value was assayed on 40 subsequent LGG-patients. At the multivariate Cox analysis, the GASC-based score was the only independent predictor of overall survival and malignant progression free-survival. Conclusions: The microenvironment of both LGG and HGG hosts non-tumorigenic multipotent stem cells that can increase in vitro the biological aggressiveness of glioma-initiating cells through the release of exosomes. The clinical importance of this finding is supported by the strong prognostic value associated with the characteristics of GASC. This patient-based approach can provide a groundbreaking method to predict prognosis and to exploit novel strategies that target the tumor stroma. Stem Cells 2013." .
+
+<http://tcga.deri.ie/pubmed/24375787/author/26>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Daniela" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Cesselli" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/15>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Giovanni" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Falconieri" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/22>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Giacinto" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Scoles" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/13>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Marco" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Vindigni" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/24>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Carlo Alberto" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CA" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Beltrami" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/20>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Pietro" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Parisse" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Daniela" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Musiello" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/17>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Vanna" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "V" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Pecile" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/19>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Giorgia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gri" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Barbara" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Toffoletto" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Damiano" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mangoni" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Anita" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Palma" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/25>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Antonio Paolo" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AP" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Beltrami" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Giorgia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gregoraci" .
+
+<http://tcga.deri.ie/pubmed/24375787/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Anja" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Pucer" .

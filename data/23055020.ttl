@@ -1,0 +1,98 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23055020/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Global DNA hypomethylation has been associated with increased risk for cancers of the colorectum, bladder, breast, head and neck, and testicular germ cells. The aim of this study was to examine whether global hypomethylation measured at BLCA-4 repeat regions through bisulfite pyrosequencing in blood leukocyte DNA is associated with the risk of bladder cancer(BC). A total of 312 bladder cancer patients and 361 healthy control subjects were included in Chongqing, China. Global methylation in blood leukocyte DNA was estimated by analyzing BLCA-4 repeats using bisulfite-polymerase chain reaction (PCR) and pyrosequencing. The median methylation level in BC cases (percentage of 5-methylcytosine (5 mC) = 75.7 %) was significantly lower than that in controls (79.7 % 5 mC) (P = 0.002, Wilcoxon rank-sum test). The odds ratios (ORs) of BC for individuals in the third, second, and first (lowest) quartiles of BLCA-4 methylation were 1.2 (95 % confidence interval (CI) 0.8-1.9), 1.6 (95 % CI 1.1-2.3), and 2.7 (95 % CI 1.5-3.8) (P for trend <0.001), respectively, compared to individuals in the fourth (highest) quartile. A 2.1-fold (95 % CI 1.5-2.8) increased risk of BC was observed among individuals with BLCA-4 methylation below the median compared to individuals with higher (>median) BLCA-4 methylation. Our results demonstrate for the first time that individuals with global hypomethylation measured in BLCA-4 repeats in blood leukocyte DNA have an increased risk for BC. Our data provide the evidence that BLCA-4 hypomethylation may be a useful biomarker for poor prognosis of patients with BC." .
+
+<http://tcga.deri.ie/pubmed/23055020/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Pathol. Oncol. Res." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "2" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Pathology oncology research : POR" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "19" .
+
+<http://tcga.deri.ie/pubmed/23055020/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Wen-Hao" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "WH" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Shen" .
+
+<http://tcga.deri.ie/pubmed/23055020/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jin-Hong" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JH" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Pan" .
+
+<http://tcga.deri.ie/pubmed/23055020>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Association of BLCA-4 hypomethylation in blood leukocyte DNA and the risk of bladder cancer in a Chinese population." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Urology Department, Southwest Hospital Affilated to Third Military Medical University, No. 33, Gaotanyanzheng RD, Chongqing, 400038, China." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23055020/author/4> , <http://tcga.deri.ie/pubmed/23055020/author/3> , <http://tcga.deri.ie/pubmed/23055020/author/1> , <http://tcga.deri.ie/pubmed/23055020/author/2> , <http://tcga.deri.ie/pubmed/23055020/author/5> , <http://tcga.deri.ie/pubmed/23055020/author/6> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23055020/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23055020/abstract> ;
+      dcterms:identifier "pubmed:23055020" ;
+      dcterms:language "eng" ;
+      dcterms:title "Association of BLCA-4 hypomethylation in blood leukocyte DNA and the risk of bladder cancer in a Chinese population." ;
+      skos:related <http://tcga.deri.ie/graph/BLCA> .
+
+<http://tcga.deri.ie/pubmed/23055020/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Hui-Xiang" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "HX" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ji" .
+
+<http://tcga.deri.ie/pubmed/23055020/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Qian" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Q" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhao" .
+
+<http://tcga.deri.ie/pubmed/23055020/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Zhi-Wen" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "ZW" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Chen" .
+
+<http://tcga.deri.ie/pubmed/23055020/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Zhan-Song" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "ZS" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhou" .

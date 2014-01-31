@@ -1,0 +1,80 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24398226/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Maria" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Richter" .
+
+<http://tcga.deri.ie/pubmed/24398226/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Bungowannah virus is the most divergent atypical pestivirus that had been detected up to now, and does not fit into any of the four approved species: Bovine viral diarrhea virus type 1 (BVDV-1) and type 2 (BVDV-2), Classical swine fever virus (CSFV) and Border disease virus (BDV). However, the presence of N(pro) and E(rns) coding regions, which are unique to pestiviruses, provides clear evidence of a pestivirus. Nevertheless, the amino acid identity of Bungowannah virus N(pro) and BVDV-1 N(pro) (strain CP7) is only 51.5%. By using a BVDV-1 backbone, a novel chimeric construct was generated, in which the genomic region encoding the non-structural protein N(pro) was replaced by that of Bungowannah virus (CP7_N(pro)-Bungo). In vitro studies of CP7_N(pro)-Bungo revealed autonomous replication with the same efficacy as the BVDV backbone CP7 and infectious high-titer virus could be collected. In order to compare the ability of interferon (IFN) suppression, two reporter gene assays, specific for type-I IFN, were carried out. In virus-infected cells, no significant difference in blocking of IFN expression between the parental virus CP7, Bungowannah virus and the chimeric construct CP7_N(pro)-Bungo could be detected. In contrast, an N(pro) deletion mutant showed an impaired replication in bovine cells and a marked type-I IFN response. Taken together, our findings reveal the compatibility of non-structural protein N(pro) of atypical Bungowannah virus with a BVDV type 1 backbone and its characteristic feature as an inhibitor of type-I IFN induction with an inhibitor-activity comparable to other pestiviruses." .
+
+<http://tcga.deri.ie/pubmed/24398226/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Patricia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "König" .
+
+<http://tcga.deri.ie/pubmed/24398226/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Martin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Beer" .
+
+<http://tcga.deri.ie/pubmed/24398226/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Vet. Microbiol." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "2-4" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Veterinary microbiology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "168" .
+
+<http://tcga.deri.ie/pubmed/24398226/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ilona" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Reimann" .
+
+<http://tcga.deri.ie/pubmed/24398226>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "N(pro) of Bungowannah virus exhibits the same antagonistic function in the IFN induction pathway than that of other classical pestiviruses." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Institute of Diagnostic Virology, Friedrich-Loeffler-Institut, Greifswald-Insel Riems, Germany." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24398226/author/1> , <http://tcga.deri.ie/pubmed/24398226/author/2> , <http://tcga.deri.ie/pubmed/24398226/author/4> , <http://tcga.deri.ie/pubmed/24398226/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24398226/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24398226/abstract> ;
+      dcterms:identifier "pubmed:24398226" ;
+      dcterms:language "eng" ;
+      dcterms:title "N(pro) of Bungowannah virus exhibits the same antagonistic function in the IFN induction pathway than that of other classical pestiviruses." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_17199> , <http://purl.obolibrary.org/obo/NCBIGene_3439> , <http://purl.obolibrary.org/obo/NCBIGene_4157> , <http://purl.obolibrary.org/obo/KEGG#_K04199> , <http://purl.obolibrary.org/obo/NCBIGene_15962> , <http://purl.obolibrary.org/obo/NCBIGene_298210> .

@@ -1,0 +1,80 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24394591/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Minoru" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Fujii" .
+
+<http://tcga.deri.ie/pubmed/24394591/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Nanotechnology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "4" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Nanotechnology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "25" .
+
+<http://tcga.deri.ie/pubmed/24394591/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Arrays of vertically aligned single crystalline Si nanowires (NWs) decorated with arbitrarily shaped Si nanocrystals (NCs) have been fabricated by a silver assisted wet chemical etching method. Scanning electron microscopy and transmission electron microscopy are performed to measure the dimensions of the Si NWs as well as the Si NCs. A strong broad band and tunable visible (2.2 eV) to near-infrared (1.5 eV) photoluminescence (PL) is observed from these Si NWs at room temperature (RT). Our studies reveal that the Si NCs are primarily responsible for the 1.5-2.2 eV emission depending on the cross-sectional area of the Si NCs, while the large diameter Si/SiOx NWs yield distinct NIR PL consisting of peaks at 1.07, 1.10 and 1.12 eV. The latter NIR peaks are attributed to TO/LO phonon assisted radiative recombination of free carriers condensed in the electron-hole plasma in etched Si NWs observed at RT for the first time. Since the shape of the Si NCs is arbitrary, an analytical model is proposed to correlate the measured PL peak position with the cross-sectional area (A) of the Si NCs, and the bandgap (Eg) of nanostructured Si varies as Eg = Eg (bulk) + 3.58 A(-0.52). Low temperature PL studies reveal the contribution of non-radiative defects in the evolution of PL spectra at different temperatures. The enhancement of PL intensity and red-shift of the PL peak at low temperatures are explained based on the interplay of radiative and non-radiative recombinations at the Si NCs and Si/SiOx interface. Time resolved PL studies reveal bi-exponential decay with size correlated lifetimes in the range of a few microseconds. Our results help to resolve a long standing debate on the origin of visible-NIR PL from Si NWs and allow quantitative analysis of PL from arbitrarily shaped Si NCs." .
+
+<http://tcga.deri.ie/pubmed/24394591/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "P K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "PK" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Giri" .
+
+<http://tcga.deri.ie/pubmed/24394591/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Kenji" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Imakita" .
+
+<http://tcga.deri.ie/pubmed/24394591>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Origin of visible and near-infrared photoluminescence from chemically etched Si nanowires decorated with arbitrarily shaped Si nanocrystals." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Physics, Indian Institute of Technology Guwahati, Guwahati-781039, India." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24394591/author/4> , <http://tcga.deri.ie/pubmed/24394591/author/2> , <http://tcga.deri.ie/pubmed/24394591/author/3> , <http://tcga.deri.ie/pubmed/24394591/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24394591/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24394591/abstract> ;
+      dcterms:identifier "pubmed:24394591" ;
+      dcterms:language "eng" ;
+      dcterms:title "Origin of visible and near-infrared photoluminescence from chemically etched Si nanowires decorated with arbitrarily shaped Si nanocrystals." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_5406> , <http://purl.obolibrary.org/obo/NCBIGene_15395> , <http://purl.obolibrary.org/obo/NCBIGene_1442> , <http://purl.obolibrary.org/obo/NCBIGene_3206> .
+
+<http://tcga.deri.ie/pubmed/24394591/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ramesh" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ghosh" .

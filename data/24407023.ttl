@@ -1,0 +1,151 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24407023/author/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Huanming" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yang" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jun" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wang" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Karthikraj" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Natarajan" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xiuqing" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "X" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhang" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Fei" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gao" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Zhimei" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yuan" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Zhaowei" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gao" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xu" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "X" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Han" .
+
+<http://tcga.deri.ie/pubmed/24407023>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Direct ChIP-bisulfite sequencing reveals a role of H3K27me3 mediating aberrant hypermethylation of promoter CpG islands in cancer cells." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Science & Technology Department, BGI-Shenzhen, Shenzhen, 518083, China. Electronic address: gaofei@genomics.cn." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24407023/author/1> , <http://tcga.deri.ie/pubmed/24407023/author/6> , <http://tcga.deri.ie/pubmed/24407023/author/3> , <http://tcga.deri.ie/pubmed/24407023/author/11> , <http://tcga.deri.ie/pubmed/24407023/author/4> , <http://tcga.deri.ie/pubmed/24407023/author/2> , <http://tcga.deri.ie/pubmed/24407023/author/8> , <http://tcga.deri.ie/pubmed/24407023/author/7> , <http://tcga.deri.ie/pubmed/24407023/author/10> , <http://tcga.deri.ie/pubmed/24407023/author/9> , <http://tcga.deri.ie/pubmed/24407023/author/12> , <http://tcga.deri.ie/pubmed/24407023/author/5> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24407023/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24407023/abstract> ;
+      dcterms:identifier "pubmed:24407023" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Direct ChIP-bisulfite sequencing reveals a role of H3K27me3 mediating aberrant hypermethylation of promoter CpG islands in cancer cells." .
+
+<http://tcga.deri.ie/pubmed/24407023/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Guanyu" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ji" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xiaojun" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "X" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Huang" .
+
+<http://tcga.deri.ie/pubmed/24407023/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Huijuan" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Luo" .
+
+<http://tcga.deri.ie/pubmed/24407023/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Genomics" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Genomics" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24407023/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The model describing that aberrant CpG island (CGI) methylation leads to repression of tumour suppressor genes in cancers has been influential, but it remains unclear how such aberrancy is induced. Recent studies provided clues indicating that promoter hypermethylation in cancers might be associated with PRC target genes. Here, we used ChIP-BS-seq to examine methylation of the DNA fragments precipitated by the antibodies to both H3K27me3 and H3K4me3 histone modifications. We showed that, for a set of genes highly enriched with H3K27me3 both in cancer and normal cells, CGI promoters were aberrantly hypermethylated only in cancer cells in comparison with normal cells. In contrast, such aberrant CGI hypermethylation in cancer promoters that were deficient of H3K27me3 was not notable. Furthermore, we confirmed that these genes were consistently hypermethylated in TCGA primary cancer cells. These works support the association between H3K27me3 and DNA methylation marks for specific cancer genes and will spur future work on combined histone and DNA methylation that could define cancer's epigenetic abnormalities." .
+
+<http://tcga.deri.ie/pubmed/24407023/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mingzhi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ye" .

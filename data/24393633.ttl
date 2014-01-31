@@ -1,0 +1,125 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24393633/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The molecular mechanism of acquired resistance to the 16-membered macrolides tylosin (Ty) and tilmicosin (Tm) was investigated in Mycoplasma bovis field isolates. Sequence analysis of domains II and V of the two 23S rRNA alleles and ribosomal proteins L4 and L22 was performed on 54 M. bovis isolates showing different minimal inhibitory concentrations (MIC). The presence of any one of the point mutations G748A, C752T, A2058G, A2059G or A2059C (Escherichia coli numbering) in one or both alleles of the 23S rRNAs was correlated with decreased susceptibility to Ty (8-1024μg/ml) and to Tm (32 to >256μg/ml) in 27/27 and 27/31 M. bovis isolates, respectively. Although a single mutation in domain II or V could be sufficient to cause decreased susceptibility to Ty, our data imply that a combination of mutations in two domains is necessary to achieve higher MICs (≥128μg/ml). The influence of a combination of mutations in two domains II and V on enhancement of resistance to Tm was less clear. In addition, the amino acid (aa) substitution L22-Q90H was found in 24/32 representative M. bovis isolates with different MICs, but no correlation with decreased susceptibility to Ty or Tm was identified. Multiple aa substitutions were also identified in the L4 protein, including at positions 185-186 (positions 64 and 65 in E. coli) which are adjacent to the macrolide-binding site. This is the first description of the molecular mechanism of acquired resistance to the 16-membered macrolides in M. bovis." .
+
+<http://tcga.deri.ie/pubmed/24393633/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Uri" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "U" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lerner" .
+
+<http://tcga.deri.ie/pubmed/24393633/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Dina" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Teff" .
+
+<http://tcga.deri.ie/pubmed/24393633/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "David" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yogev" .
+
+<http://tcga.deri.ie/pubmed/24393633/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Vet. Microbiol." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "2-4" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Veterinary microbiology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "168" .
+
+<http://tcga.deri.ie/pubmed/24393633/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Eytan" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Amram" .
+
+<http://tcga.deri.ie/pubmed/24393633>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Acquired resistance to the 16-membered macrolides tylosin and tilmicosin by Mycoplasma bovis." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Mycoplasma Unit, Division of Avian and Fish Diseases, Kimron Veterinary Institute, Israel; Department of Microbiology and Molecular Genetics, The Hebrew University of Jerusalem, Israel." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24393633/author/7> , <http://tcga.deri.ie/pubmed/24393633/author/1> , <http://tcga.deri.ie/pubmed/24393633/author/2> , <http://tcga.deri.ie/pubmed/24393633/author/8> , <http://tcga.deri.ie/pubmed/24393633/author/5> , <http://tcga.deri.ie/pubmed/24393633/author/4> , <http://tcga.deri.ie/pubmed/24393633/author/3> , <http://tcga.deri.ie/pubmed/24393633/author/6> , <http://tcga.deri.ie/pubmed/24393633/author/9> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24393633/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24393633/abstract> ;
+      dcterms:identifier "pubmed:24393633" ;
+      dcterms:language "eng" ;
+      dcterms:title "Acquired resistance to the 16-membered macrolides tylosin and tilmicosin by Mycoplasma bovis." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_2543021> , <http://purl.obolibrary.org/obo/NCBIGene_64302> , <http://purl.obolibrary.org/obo/NCBIGene_6146> , <http://purl.obolibrary.org/obo/NCBIGene_6124> , <http://purl.obolibrary.org/obo/NCBIGene_31022> , <http://purl.obolibrary.org/obo/NCBIGene_67891> , <http://purl.obolibrary.org/obo/NCBIGene_19934> , <http://purl.obolibrary.org/obo/NCBIGene_81768> .
+
+<http://tcga.deri.ie/pubmed/24393633/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Irena" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gerchman" .
+
+<http://tcga.deri.ie/pubmed/24393633/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Inna" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mikula" .
+
+<http://tcga.deri.ie/pubmed/24393633/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Roger D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "RD" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ayling" .
+
+<http://tcga.deri.ie/pubmed/24393633/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Shimon" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Harrus" .
+
+<http://tcga.deri.ie/pubmed/24393633/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Inna" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lysnyansky" .

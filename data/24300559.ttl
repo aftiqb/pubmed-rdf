@@ -1,0 +1,97 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24300559>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Pain perception during outpatient cystoscopy: a prospective controlled study." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Division of General Gynecology and Gynecologic Oncology, Medical University Vienna, Waehringer Guertel 18, 1090 Vienna, Austria. Electronic address: guelen.yerlikaya@meduniwien.ac.at." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24300559/author/2> , <http://tcga.deri.ie/pubmed/24300559/author/3> , <http://tcga.deri.ie/pubmed/24300559/author/6> , <http://tcga.deri.ie/pubmed/24300559/author/5> , <http://tcga.deri.ie/pubmed/24300559/author/1> , <http://tcga.deri.ie/pubmed/24300559/author/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24300559/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24300559/abstract> ;
+      dcterms:identifier "pubmed:24300559" ;
+      dcterms:language "eng" ;
+      dcterms:title "Pain perception during outpatient cystoscopy: a prospective controlled study." .
+
+<http://tcga.deri.ie/pubmed/24300559/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Eur. J. Obstet. Gynecol. Reprod. Biol." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "European journal of obstetrics, gynecology, and reproductive biology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "173" .
+
+<http://tcga.deri.ie/pubmed/24300559/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Thomas" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Laml" .
+
+<http://tcga.deri.ie/pubmed/24300559/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ksenia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Elenskaia" .
+
+<http://tcga.deri.ie/pubmed/24300559/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Wolfgang" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "W" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Umek" .
+
+<http://tcga.deri.ie/pubmed/24300559/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Heinz" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Kölbl" .
+
+<http://tcga.deri.ie/pubmed/24300559/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Rigid cystoscopy is a common diagnostic tool in the assessment of lower urinary tract symptoms, but it is an invasive procedure which can cause distress. Data exist about pain perception during cystoscopy in male patients but only a few data are available in women. The purpose of this study was to investigate pain perception in urogynecologic patients during cystoscopy and compare it with pain perception during urodynamics. We also investigated the difference between anticipated and actual pain perception." .
+
+<http://tcga.deri.ie/pubmed/24300559/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Gülen" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yerlikaya" .
+
+<http://tcga.deri.ie/pubmed/24300559/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Engelbert" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hanzal" .

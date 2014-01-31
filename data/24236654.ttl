@@ -1,0 +1,124 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24236654/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Miriam" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Isola" .
+
+<http://tcga.deri.ie/pubmed/24236654/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Object Although a number of recent studies on the surgical treatment of insular low-grade glioma (LGG) have demonstrated that aggressive resection leads to increased overall patient survival and decreased malignant progression, less attention has been given to the results with respect to tumor-related epilepsy. The aim of this investigation was to evaluate the impact of volumetric, histological, and intraoperative neurophysiological factors on seizure outcome in patients with insular LGG. Methods The authors evaluated predictors of seizure outcome with special emphasis on both the extent of tumor resection (EOR) and the tumor's infiltrative pattern quantified by computing the difference between the preoperative T2- and T1-weighted MR images (ΔVT2T1) in 52 patients with preoperative drug-resistant epilepsy. Results The 12-month postoperative seizure outcome (Engel class) was as follows: seizure free (Class I), 67.31%; rare seizures (Class II), 7.69%; meaningful seizure improvement (Class III), 15.38%; and no improvement or worsening (Class IV), 9.62%. Poor seizure control was more common in patients with a longer preoperative seizure history (p < 0.002) and higher frequency of seizures (p = 0.008). Better seizure control was achieved in cases with EOR ≥ 90% (p < 0.001) and ΔVT2T1 < 30 cm(3) (p < 0.001). In the final model, ΔVT2T1 proved to be the strongest independent predictor of seizure outcome in insular LGG patients (p < 0.0001). Conclusions No or little postoperative seizure improvement occurs mainly in cases with a prevalent infiltrative tumor growth pattern, expressed by high ΔVT2T1 values, which consequently reflects a smaller EOR." .
+
+<http://tcga.deri.ie/pubmed/24236654/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Riccardo" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Budai" .
+
+<http://tcga.deri.ie/pubmed/24236654/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Christian" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "C" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lettieri" .
+
+<http://tcga.deri.ie/pubmed/24236654/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Roberto" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Eleopra" .
+
+<http://tcga.deri.ie/pubmed/24236654/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Giorgia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Gregoraci" .
+
+<http://tcga.deri.ie/pubmed/24236654/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Miran" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Skrap" .
+
+<http://tcga.deri.ie/pubmed/24236654>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Surgery for insular low-grade glioma: predictors of postoperative seizure outcome." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Departments of Neurosurgery and." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24236654/author/3> , <http://tcga.deri.ie/pubmed/24236654/author/5> , <http://tcga.deri.ie/pubmed/24236654/author/6> , <http://tcga.deri.ie/pubmed/24236654/author/7> , <http://tcga.deri.ie/pubmed/24236654/author/4> , <http://tcga.deri.ie/pubmed/24236654/author/9> , <http://tcga.deri.ie/pubmed/24236654/author/2> , <http://tcga.deri.ie/pubmed/24236654/author/8> , <http://tcga.deri.ie/pubmed/24236654/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24236654/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24236654/abstract> ;
+      dcterms:identifier "pubmed:24236654" ;
+      dcterms:language "eng" ;
+      dcterms:title "Surgery for insular low-grade glioma: predictors of postoperative seizure outcome." .
+
+<http://tcga.deri.ie/pubmed/24236654/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J. Neurosurg." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of neurosurgery" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "120" .
+
+<http://tcga.deri.ie/pubmed/24236654/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Giada" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Pauletto" .
+
+<http://tcga.deri.ie/pubmed/24236654/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tamara" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ius" .
+
+<http://tcga.deri.ie/pubmed/24236654/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Luciano" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Fadiga" .

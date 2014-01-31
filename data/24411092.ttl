@@ -1,0 +1,98 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24411092/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Capillary electrophoresis with capacitively coupled contactless conductivity detection (CE-C(4)D) was used for fast, simultaneous determination of dipyrone (DIP), caffeine (CAF), and acetylsalicylic acid (ASA). In the same run and in less than 1min, the degradation products from DIP and ASA were also detected. In addition, the usage of the CE-C(4)D system allowed, for the first time, the detection of methylamine as a degradation product of DIP. Capillary electrophoresis with electrospray mass spectrometry experiments were carried out in order to confirm the formation of methylamine. The limits of detection by CE-C(4)D were 5, 5, and 6μmolL(-1) for CAF, DIP, and ASA, respectively. The proposed method was applied to the analysis of these compounds in pharmaceutical formulations with similar results to those achieved by HPLC (p<0.05)." .
+
+<http://tcga.deri.ie/pubmed/24411092>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Ultra-fast determination of caffeine, dipyrone, and acetylsalicylic acid by capillary electrophoresis with capacitively coupled contactless conductivity detection and identification of degradation products." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Instituto de Química, Universidade Federal de Uberlândia, Av. João Naves de Ávila, 2121 Uberlândia, MG, Brazil." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24411092/author/1> , <http://tcga.deri.ie/pubmed/24411092/author/5> , <http://tcga.deri.ie/pubmed/24411092/author/6> , <http://tcga.deri.ie/pubmed/24411092/author/4> , <http://tcga.deri.ie/pubmed/24411092/author/2> , <http://tcga.deri.ie/pubmed/24411092/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24411092/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24411092/abstract> ;
+      dcterms:identifier "pubmed:24411092" ;
+      dcterms:language "eng" ;
+      dcterms:title "Ultra-fast determination of caffeine, dipyrone, and acetylsalicylic acid by capillary electrophoresis with capacitively coupled contactless conductivity detection and identification of degradation products." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_83514> , <http://purl.obolibrary.org/obo/NCBIGene_9063> , <http://purl.obolibrary.org/obo/NCBIGene_51517> , <http://purl.obolibrary.org/obo/NCBIGene_8850> , <http://purl.obolibrary.org/obo/NCBIGene_14605> , <http://purl.obolibrary.org/obo/NCBIGene_1831> , <http://purl.obolibrary.org/obo/NCBIGene_17344> , <http://purl.obolibrary.org/obo/NCBIGene_18519> , <http://purl.obolibrary.org/obo/NCBIGene_83422> , <http://purl.obolibrary.org/obo/NCBIGene_80987> .
+
+<http://tcga.deri.ie/pubmed/24411092/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mariana Cardoso" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "MC" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Marra" .
+
+<http://tcga.deri.ie/pubmed/24411092/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Eduardo Mathias" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "EM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Richter" .
+
+<http://tcga.deri.ie/pubmed/24411092/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Claudimir Lucio do" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CL" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lago" .
+
+<http://tcga.deri.ie/pubmed/24411092/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Rodrigo Alejandro Abarza" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "RA" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Munoz" .
+
+<http://tcga.deri.ie/pubmed/24411092/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Rafael Rodrigues" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "RR" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Cunha" .
+
+<http://tcga.deri.ie/pubmed/24411092/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J Chromatogr A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of chromatography. A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "1327" .
+
+<http://tcga.deri.ie/pubmed/24411092/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Denis Tadeu Rajh" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "DT" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Vidal" .

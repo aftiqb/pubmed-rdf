@@ -1,0 +1,134 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24313617/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Robert F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "RF" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Spetzler" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Lynn" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Ashby" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Nader" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "N" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sanai" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jeffrey R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JR" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wilson" .
+
+<http://tcga.deri.ie/pubmed/24313617/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J. Neurosurg." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of neurosurgery" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "David" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Brachman" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Stephen W" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "SW" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Coons" .
+
+<http://tcga.deri.ie/pubmed/24313617>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "The impact of extent of resection on malignant transformation of pure oligodendrogliomas." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Divisions of Neurological Surgery and." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24313617/author/9> , <http://tcga.deri.ie/pubmed/24313617/author/6> , <http://tcga.deri.ie/pubmed/24313617/author/10> , <http://tcga.deri.ie/pubmed/24313617/author/5> , <http://tcga.deri.ie/pubmed/24313617/author/1> , <http://tcga.deri.ie/pubmed/24313617/author/4> , <http://tcga.deri.ie/pubmed/24313617/author/3> , <http://tcga.deri.ie/pubmed/24313617/author/2> , <http://tcga.deri.ie/pubmed/24313617/author/7> , <http://tcga.deri.ie/pubmed/24313617/author/8> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24313617/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24313617/abstract> ;
+      dcterms:identifier "pubmed:24313617" ;
+      dcterms:language "ENG" ;
+      dcterms:title "The impact of extent of resection on malignant transformation of pure oligodendrogliomas." ;
+      skos:related <http://tcga.deri.ie/graph/LGG> .
+
+<http://tcga.deri.ie/pubmed/24313617/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Laura A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "LA" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Snyder" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Robert" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bina" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mark E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "ME" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Oppenlander" .
+
+<http://tcga.deri.ie/pubmed/24313617/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Andrew B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AB" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wolf" .
+
+<http://tcga.deri.ie/pubmed/24313617/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Object Recent evidence suggests that a greater extent of resection (EOR) extends malignant progression-free survival among patients with low-grade gliomas (LGGs). These studies, however, rely on the combined analysis of oligodendrogliomas, astrocytomas, and mixed oligoastrocytomas-3 histological subtypes with distinct genetic and molecular compositions. To assess the value of EOR in a homogeneous LGG patient population and delineate its impact on LGG transformation, the authors examined its effect on newly diagnosed supratentorial oligodendrogliomas. Methods The authors identified 93 newly diagnosed adult patients with WHO Grade II oligodendrogliomas treated with microsurgical resection at Barrow Neurological Institute. Clinical, laboratory, and radiographic data were collected retrospectively, including 1p/19q codeletion status and volumetric analysis based on T2-weighted MRI. Results The median preoperative and postoperative tumor volumes and EOR were 29.0 cm(3) (range 1.3-222.7 cm(3)), 5.2 cm(3) (range 0-156.1 cm(3)), and 85% (range 6%-100%), respectively. Median follow-up was 75.4 months, and there were 14 deaths (15%). Progression and malignant progression were identified in 31 (33%) and 20 (22%) cases, respectively. A greater EOR was associated with longer overall survival (p = 0.005) and progression-free survival (p = 0.004); however, a greater EOR did not prolong the interval to malignant progression, even when controlling for 1p/19q codeletion. Conclusions A greater EOR is associated with an improved survival profile for patients with WHO Grade II oligodendrogliomas. However, for this particular LGG patient population, the interval to tumor transformation is not influenced by cytoreduction. These data raise the possibility that the capacity for microsurgical resection to modulate malignant progression is mediated through biological mechanisms specific to nonoligodendroglioma LGG histologies." .

@@ -1,0 +1,152 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24218181/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J. Neurooncol." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of neuro-oncology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "116" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Normand" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "N" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Laperriere" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Matthew" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mistry" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Nataliya" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "N" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhukova" .
+
+<http://tcga.deri.ie/pubmed/24218181/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Diencephalic syndrome (DS) is a clinical disorder of metabolism associated with poor outcome in children with low-grade gliomas (LGGs). Since survival has been primarily reported with aggressive therapy, we report outcome data for these patients using a current, contrasting chemotherapy-driven approach. We performed a population-based review of DS patients treated with chemotherapy from 1997-2012. Metabolic rate was assessed in selected cases using open-circuit calorimetry to generate resting energy expenditure (REE) data. Tumor tissue was analyzed for BRAF alterations. Survival was compared with an age-related, radiotherapy naïve cohort of non-DS children with location-matched LGGs. Nine children (1.7 % of 520 LGG diagnoses) fulfilled DS criteria. The median diagnostic age was 1.49 years (0.55-2.69 years), although neurofibromatosis Type-I patients were older (p = 0.005). All tumors analyzed exhibited either NF1 mutation or BRAF fusion. Seven tumors were histologically confirmed as low grade astrocytomas, one demonstrated neurocytic features, and one NF1 case was diagnosed using imaging and clinical criteria. All patients received chemotherapy, with seven cases also receiving initial nutritional supplementation. All nine gained weight after only 6 months of treatment. Two DS patients had serial REE measurements, revealing a hypermetabolic state (over 200 % of predicted REE) at diagnosis which reduced to normal range with therapy. First-line chemotherapy treatment resulted in one minor response, stable disease in four cases, with progression in the remaining four patients. Although DS patients demonstrated inferior initial progression-free survival when compared to non-DS counterparts (5 years: 22 versus 60 %, p = 0.015), all DS children remain alive at a median follow up of 5.3 years (1.2-14.9 years) with none requiring radiotherapy. Long-term sequelae included pituitary and visual dysfunction, learning difficulties and paradoxical, inappropriate weight gain. DS can be managed with non-aggressive chemotherapeutic, radiation-sparing strategies supplemented by temporary nutritional support. Multiple lines of therapy may be required to overcome disease progression but excellent survival and metabolic outcomes can be achieved. Continued surveillance is mandatory to prevent significant weight gain and support affected children with clinical sequelae." .
+
+<http://tcga.deri.ie/pubmed/24218181/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mary" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Barron" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mary" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Shago" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Peter" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Dirks" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Annie" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Huang" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ute" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "U" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bartels" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Eric" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bouffet" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "John-Paul" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JP" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Kilday" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Uri" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "U" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Tabori" .
+
+<http://tcga.deri.ie/pubmed/24218181/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Cynthia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "C" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hawkins" .
+
+<http://tcga.deri.ie/pubmed/24218181>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Favorable survival and metabolic outcome for children with diencephalic syndrome using a radiation-sparing approach." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Division of Haematology/Oncology, Department of Pediatric Neuro-Oncology, Hospital for Sick Children, University Avenue, University of Toronto, Toronto, ON, M5G 1X8, Canada." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24218181/author/4> , <http://tcga.deri.ie/pubmed/24218181/author/5> , <http://tcga.deri.ie/pubmed/24218181/author/9> , <http://tcga.deri.ie/pubmed/24218181/author/3> , <http://tcga.deri.ie/pubmed/24218181/author/2> , <http://tcga.deri.ie/pubmed/24218181/author/12> , <http://tcga.deri.ie/pubmed/24218181/author/1> , <http://tcga.deri.ie/pubmed/24218181/author/11> , <http://tcga.deri.ie/pubmed/24218181/author/8> , <http://tcga.deri.ie/pubmed/24218181/author/10> , <http://tcga.deri.ie/pubmed/24218181/author/6> , <http://tcga.deri.ie/pubmed/24218181/author/7> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24218181/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24218181/abstract> ;
+      dcterms:identifier "pubmed:24218181" ;
+      dcterms:language "eng" ;
+      dcterms:title "Favorable survival and metabolic outcome for children with diencephalic syndrome using a radiation-sparing approach." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_673> , <http://purl.obolibrary.org/obo/NCBIGene_18015> , <http://purl.obolibrary.org/obo/NCBIGene_43149> , <http://purl.obolibrary.org/obo/NCBIGene_4763> , <http://purl.obolibrary.org/obo/NCBIGene_109880> , <http://purl.org/skeletome/bonedysplasia#G0000193> .

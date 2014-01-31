@@ -1,0 +1,107 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24374177/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Marion" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Manil-Ségalen" .
+
+<http://tcga.deri.ie/pubmed/24374177/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Renaud" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Legouis" .
+
+<http://tcga.deri.ie/pubmed/24374177>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "The C. elegans LC3 Acts Downstream of GABARAP to Degrade Autophagosomes by Interacting with the HOPS Subunit VPS39." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Centre de Génétique Moléculaire, CNRS UPR3404 associée à l'Université Paris Sud, Avenue de la terrasse, 91198 Gif-sur-Yvette Cedex, France." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24374177/author/1> , <http://tcga.deri.ie/pubmed/24374177/author/7> , <http://tcga.deri.ie/pubmed/24374177/author/6> , <http://tcga.deri.ie/pubmed/24374177/author/4> , <http://tcga.deri.ie/pubmed/24374177/author/5> , <http://tcga.deri.ie/pubmed/24374177/author/2> , <http://tcga.deri.ie/pubmed/24374177/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24374177/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24374177/abstract> ;
+      dcterms:identifier "pubmed:24374177" ;
+      dcterms:language "eng" ;
+      dcterms:title "The C. elegans LC3 Acts Downstream of GABARAP to Degrade Autophagosomes by Interacting with the HOPS Subunit VPS39." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_11745> , <http://purl.obolibrary.org/obo/NCBIGene_84557> , <http://purl.obolibrary.org/obo/NCBIGene_11337> , <http://purl.obolibrary.org/obo/NCBIGene_306> , <http://purl.obolibrary.org/obo/NCBIGene_25291> .
+
+<http://tcga.deri.ie/pubmed/24374177/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The formation of the autophagic vesicles requires the recruitment of ubiquitin-like Atg8 proteins to the membrane of nascent autophagosomes. Seven Atg8 homologs are present in mammals, split into the LC3 and the GABARAP/GATE-16 families, whose respective functions are unknown. Using Caenorhabditis elegans, we investigated the functions of the GABARAP and the LC3 homologs, LGG-1 and LGG-2, in autophagosome biogenesis. Both LGG-1 and LGG-2 localize to the autophagosomes but display partially overlapping patterns. During allophagy, a developmentally stereotyped autophagic flux, LGG-1 acts upstream of LGG-2 to allow its localization to autophagosomes. LGG-2 controls the maturation of LGG-1-positive autophagosomes and facilitates the tethering with the lysosomes through a direct interaction with the VPS-39 HOPS complex subunit. Genetic analyses sustain a sequential implication of LGG-1, LGG-2, RAB-7, and HOPS complex to generate autolysosomes. The duplications of Atg8 in metazoans thus allowed the acquisition of specialized functions for autophagosome maturation." .
+
+<http://tcga.deri.ie/pubmed/24374177/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Béatrice" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Satiat-Jeunemaitre" .
+
+<http://tcga.deri.ie/pubmed/24374177/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Michael" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Trichet" .
+
+<http://tcga.deri.ie/pubmed/24374177/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Claire" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "C" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Boulogne" .
+
+<http://tcga.deri.ie/pubmed/24374177/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Dev. Cell" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Developmental cell" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "28" .
+
+<http://tcga.deri.ie/pubmed/24374177/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Christophe" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "C" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lefebvre" .
+
+<http://tcga.deri.ie/pubmed/24374177/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Céline" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "C" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Jenzer" .

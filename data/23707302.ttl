@@ -1,0 +1,173 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Ataxia Telangiectasia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Ataxia Telangiectasia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "pathology" .
+
+<http://tcga.deri.ie/pubmed/23707302/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Lidia" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "De Filippis" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Ataxia Telangiectasia Mutated Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Ataxia Telangiectasia Mutated Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23707302/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Elena" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Fusar Poli" .
+
+<http://tcga.deri.ie/pubmed/23707302/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Luigi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Carlessi" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Oxidative Stress" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Oxidative Stress" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Animals" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Animals" .
+
+<http://tcga.deri.ie/pubmed/23707302/chemical/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Ataxia Telangiectasia Mutated Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "EC 2.7.11.1" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Neurons" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Neurons" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pathology" , "cytology" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Neural Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Neural Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pathology" , "cytology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Neurodegenerative Diseases" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Neurodegenerative Diseases" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "pathology" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Nervous System" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Nervous System" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pathology" , "cytology" .
+
+<http://tcga.deri.ie/pubmed/23707302/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Loss of ATM kinase, a transducer of the DNA damage response and redox sensor, causes the neurodegenerative disorder ataxia-telangiectasia (A-T). While a great deal of progress has been made in elucidating the ATM-dependent DNA damage response (DDR) network, a key challenge remains in understanding the selective susceptibility of the nervous system to faulty DDR. Several factors appear implicated in the neurodegenerative phenotype in A-T, but which of them plays a crucial role remains unclear, especially since mouse models of A-T do not fully mirror the respective human syndrome. Therefore, a number of human neural stem cell (hNSC) systems have been developed to get an insight into the molecular mechanisms of neurodegeneration as consequence of ATM inactivation. Here we review the hNSC systems developed by us an others to model A-T." .
+
+<http://tcga.deri.ie/pubmed/23707302>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "ATM-deficient human neural stem cells as an in vitro model system to study neurodegeneration." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Experimental Oncology, Fondazione IRCCS Istituto Nazionale Tumori, Via Amadeo 42, 20133, Milan, Italy." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23707302/author/3> , <http://tcga.deri.ie/pubmed/23707302/author/2> , <http://tcga.deri.ie/pubmed/23707302/author/1> , <http://tcga.deri.ie/pubmed/23707302/author/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:chemical>
+              <http://tcga.deri.ie/pubmed/23707302/chemical/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23707302/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_heading>
+              <http://tcga.deri.ie/pubmed/23707302/mesh_heading/8> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/2> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/3> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/12> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/1> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/5> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/11> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/4> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/9> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/7> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/10> , <http://tcga.deri.ie/pubmed/23707302/mesh_heading/6> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Review" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23707302/abstract> ;
+      dcterms:identifier "pubmed:23707302" ;
+      dcterms:language "eng" ;
+      dcterms:title "ATM-deficient human neural stem cells as an in vitro model system to study neurodegeneration." .
+
+<http://tcga.deri.ie/pubmed/23707302/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "DNA Repair (Amst.)" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "8" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "DNA repair" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "12" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "DNA Damage" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "DNA Damage" .
+
+<http://tcga.deri.ie/pubmed/23707302/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Domenico" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Delia" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cell Differentiation" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cell Differentiation" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Humans" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Humans" .
+
+<http://tcga.deri.ie/pubmed/23707302/mesh_heading/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Disease Models, Animal" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Disease Models, Animal" .

@@ -1,0 +1,134 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24309609/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Brain tumors are the most common solid tumor diagnosed in childhood that account for significant morbidity and mortality. New therapies are urgently needed; hence, we conducted the first ever prospective open-label phase II trials of the biological response modifier, poly-ICLC, in children with brain tumors. Poly-ICLC is a synthetic double-stranded RNA that has direct antiviral, antineoplastic, and immune adjuvant effects. A total of 47 children representing a variety of brain tumor histopathologic subtypes were treated with poly-ICLC. On the basis of the results of the initial phase II trial, an expanded prospective phase II trial in low-grade glioma (LGG) has been initiated. MRI was used to acquire volume-based measures of tumor response. No dose-limiting toxicities have been observed. In the initial study 3 of 12 subjects with progressive high-grade gliomas (HGGs) responded, and 2 of 4 children with progressive LGG experienced stable disease for 18 to 24 months. In the follow-up LGG phase II study, 2 of 5 LGG patients were stable over 18 months, with 1 stable for 6 months. Overall 5 of 10 LGG patients have responded. On the basis of low toxicity and the promising LGG response, poly-ICLC may be effective for childhood LGG, and the results justify biomarker studies for personalization of poly-ICLC as a single agent or adjuvant." .
+
+<http://tcga.deri.ie/pubmed/24309609/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Scott R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "SR" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Vandenberg" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tobey J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "TJ" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Macdonald" .
+
+<http://tcga.deri.ie/pubmed/24309609/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J. Pediatr. Hematol. Oncol." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of pediatric hematology/oncology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Donald L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "DL" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Durden" .
+
+<http://tcga.deri.ie/pubmed/24309609>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Pediatric Phase II Trials of Poly-ICLC in the Management of Newly Diagnosed and Recurrent Brain Tumors." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Departments of *Pediatrics §Neuro-oncology #Pathology (Division of Neuropathology), Moores UCSD Cancer Center †Pediatrics ‡Neurosciences/Pediatrics, Rady Children's Hospital, University of California San Diego, La Jolla, CA ∥Oncovir Inc. ¶Children's Oncology Group, Childrens Hospital of Orange County, Orange, CA **Department of Pediatrics, Emory University, AFLAC Cancer Center, Children's Healthcare of Atlanta, Atlanta, GA." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24309609/author/8> , <http://tcga.deri.ie/pubmed/24309609/author/9> , <http://tcga.deri.ie/pubmed/24309609/author/3> , <http://tcga.deri.ie/pubmed/24309609/author/5> , <http://tcga.deri.ie/pubmed/24309609/author/4> , <http://tcga.deri.ie/pubmed/24309609/author/7> , <http://tcga.deri.ie/pubmed/24309609/author/2> , <http://tcga.deri.ie/pubmed/24309609/author/1> , <http://tcga.deri.ie/pubmed/24309609/author/6> , <http://tcga.deri.ie/pubmed/24309609/author/10> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24309609/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24309609/abstract> ;
+      dcterms:identifier "pubmed:24309609" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Pediatric Phase II Trials of Poly-ICLC in the Management of Newly Diagnosed and Recurrent Brain Tumors." ;
+      skos:related <http://tcga.deri.ie/graph/LGG> .
+
+<http://tcga.deri.ie/pubmed/24309609/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Milan T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "MT" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Makale" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Shweta" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Joshi" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Mehrzad" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Milburn" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "John R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JR" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Crawford" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Beth" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hasenauer" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Lisa L R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "LL" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hartman" .
+
+<http://tcga.deri.ie/pubmed/24309609/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Andres M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Salazar" .

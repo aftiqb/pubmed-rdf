@@ -1,0 +1,152 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23846349/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Yazmin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Y" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Odia" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Anand K D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AK" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Rajan" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Isabella" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "I" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Taylor" .
+
+<http://tcga.deri.ie/pubmed/23846349/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The cellular reprogramming factor LIN28A promotes tumorigenicity in cancers arising outside the central nervous system, but its role in brain tumors is unknown. We detected LIN28A protein in a subset of human gliomas observed higher expression in glioblastoma (GBM) than in lower grade tumors. Knockdown of LIN28A using lentiviral shRNA in GBM cell lines inhibited their invasion, growth and clonogenicity. Expression of LIN28A in GBM cell lines increased the number and size of orthotopic xenograft tumors. LIN28A expression also enhanced the invasiveness of GBM cells in vitro and in vivo. Increasing LIN28A was associated with down-regulation of tumor suppressing microRNAs let-7b and let-7g and up-regulation of the chromatin modifying protein HMGA2. The increase in tumor cell aggressiveness in vivo and in vitro was accompanied by an upregulation of pro-invasive gene expression, including SNAI1. To further investigate the oncogenic potential of LIN28A, we infected hNSC with lentiviruses encoding LIN28A together with dominant negative R248W-TP53, constitutively active KRAS and hTERT. Resulting subclones proliferated at an increased rate and formed invasive GBM-like tumors in orthotopic xenografts in immunodeficient mice. Similar to LIN28A-transduced GBM neurosphere lines, hNSC-derived tumor cells showed increased expression of HMGA2. Taken together, these data suggest a role for LIN28A in high grade gliomas and illustrate an HMGA2-associated, pro-invasive program that can be activated in GBM by LIN28A-mediated suppression of let-7 microRNAs." .
+
+<http://tcga.deri.ie/pubmed/23846349/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jarek" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Maciaczyk" .
+
+<http://tcga.deri.ie/pubmed/23846349/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Oncotarget" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "7" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Oncotarget" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "4" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ulf" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "U" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Kahlert" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Charles G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CG" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Eberhart" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Eric H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "EH" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Raabe" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Brent A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "BA" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Orr" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Melanie" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Weingart" .
+
+<http://tcga.deri.ie/pubmed/23846349>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "LIN28A facilitates the transformation of human neural stem cells and promotes glioblastoma tumorigenesis through a pro-invasive genetic program." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, MD, USA." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23846349/author/11> , <http://tcga.deri.ie/pubmed/23846349/author/7> , <http://tcga.deri.ie/pubmed/23846349/author/6> , <http://tcga.deri.ie/pubmed/23846349/author/5> , <http://tcga.deri.ie/pubmed/23846349/author/12> , <http://tcga.deri.ie/pubmed/23846349/author/4> , <http://tcga.deri.ie/pubmed/23846349/author/3> , <http://tcga.deri.ie/pubmed/23846349/author/2> , <http://tcga.deri.ie/pubmed/23846349/author/9> , <http://tcga.deri.ie/pubmed/23846349/author/8> , <http://tcga.deri.ie/pubmed/23846349/author/10> , <http://tcga.deri.ie/pubmed/23846349/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23846349/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23846349/abstract> ;
+      dcterms:identifier "pubmed:23846349" ;
+      dcterms:language "eng" ;
+      dcterms:title "LIN28A facilitates the transformation of human neural stem cells and promotes glioblastoma tumorigenesis through a pro-invasive genetic program." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_20613> , <http://purl.obolibrary.org/obo/KEGG#_K09283> , <http://tcga.deri.ie/graph/GBM> , <http://purl.obolibrary.org/obo/NCBIGene_6615> , <http://purl.obolibrary.org/obo/NCBIGene_500562> , <http://purl.bioontology.org/ontology/PDQ/CDR0000043187> , <http://purl.obolibrary.org/obo/KEGG#_K05707> , <http://purl.obolibrary.org/obo/NCBIGene_16653> , <http://purl.obolibrary.org/obo/NCBIGene_24525> , <http://purl.obolibrary.org/obo/NCBIGene_8091> , <http://purl.obolibrary.org/obo/NCBIGene_83557> , <http://purl.obolibrary.org/obo/NCBIGene_3845> , <http://purl.obolibrary.org/obo/NCBIGene_116490> , <http://purl.obolibrary.org/obo/NCBIGene_15364> , <http://purl.obolibrary.org/obo/NCBIGene_84017> , <http://purl.obolibrary.org/obo/NCBIGene_79727> .
+
+<http://tcga.deri.ie/pubmed/23846349/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Marianne" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Hütt-Cabezas" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Guido" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Nikkhah" .
+
+<http://tcga.deri.ie/pubmed/23846349/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xing-gang" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "XG" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Mao" .

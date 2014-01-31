@@ -1,0 +1,133 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24296882/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sarah" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lebeer" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jos" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Vanderleyden" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "James K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JK" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Li" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Yves-Jacques" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "YJ" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Schneider" .
+
+<http://tcga.deri.ie/pubmed/24296882/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Nanoscale" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "2" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Nanoscale" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "6" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Yves F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "YF" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Dufrêne" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Audrey" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Beaussart" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Prachi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Tripathi" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ruby May A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "RM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sullan" .
+
+<http://tcga.deri.ie/pubmed/24296882/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Although bacterial pili are known to mediate cell adhesion to a variety of substrates, the molecular interactions behind this process are poorly understood. We report the direct measurement of the forces guiding pili-mediated adhesion, focusing on the medically important probiotic bacterium Lactobacillus rhamnosus GG (LGG). Using non-invasive single-cell force spectroscopy (SCFS), we quantify the adhesion forces between individual bacteria and biotic (mucin, intestinal cells) or abiotic (hydrophobic monolayers) surfaces. On hydrophobic surfaces, bacterial pili strengthen adhesion through remarkable nanospring properties, which - presumably - enable the bacteria to resist high shear forces under physiological conditions. On mucin, nanosprings are more frequent and adhesion forces larger, reflecting the influence of specific pili-mucin bonds. Interestingly, these mechanical responses are no longer observed on human intestinal Caco-2 cells. Rather, force curves exhibit constant force plateaus with extended ruptures reflecting the extraction of membrane nanotethers. These single-cell analyses provide novel insights into the molecular mechanisms by which piliated bacteria colonize surfaces (nanosprings, nanotethers), and offer exciting avenues in nanomedicine for understanding and controlling the adhesion of microbial cells (probiotics, pathogens)." .
+
+<http://tcga.deri.ie/pubmed/24296882>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Single-cell force spectroscopy of pili-mediated adhesion." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Université catholique de Louvain, Institute of Life Sciences, Croix du Sud, 1, bte L7.04.01., B-1348 Louvain-la-Neuve, Belgium. Yves.Dufrene@uclouvain.be." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24296882/author/9> , <http://tcga.deri.ie/pubmed/24296882/author/8> , <http://tcga.deri.ie/pubmed/24296882/author/6> , <http://tcga.deri.ie/pubmed/24296882/author/2> , <http://tcga.deri.ie/pubmed/24296882/author/7> , <http://tcga.deri.ie/pubmed/24296882/author/3> , <http://tcga.deri.ie/pubmed/24296882/author/10> , <http://tcga.deri.ie/pubmed/24296882/author/1> , <http://tcga.deri.ie/pubmed/24296882/author/4> , <http://tcga.deri.ie/pubmed/24296882/author/5> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24296882/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24296882/abstract> ;
+      dcterms:identifier "pubmed:24296882" ;
+      dcterms:language "eng" ;
+      dcterms:title "Single-cell force spectroscopy of pili-mediated adhesion." .
+
+<http://tcga.deri.ie/pubmed/24296882/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sylvie" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Derclaye" .
+
+<http://tcga.deri.ie/pubmed/24296882/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sofiane" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "El-Kirat-Chatel" .

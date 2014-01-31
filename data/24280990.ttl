@@ -1,0 +1,142 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24280990/author/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Lijuan" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yuan" .
+
+<http://tcga.deri.ie/pubmed/24280990/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The aim of this study was to study the effect of continued Lactobacillus rhamnosus GG strain (LGG) feeding on rotavirus gastroenteritis in the gnotobiotic (Gn) pig model of virulent human rotavirus (HRV) infection." .
+
+<http://tcga.deri.ie/pubmed/24280990/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Fangning" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "F" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Liu" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Bernard" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Jortner" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Guohua" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Li" .
+
+<http://tcga.deri.ie/pubmed/24280990/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "J. Pediatr. Gastroenterol. Nutr." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "6" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Journal of pediatric gastroenterology and nutrition" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "57" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Shaoping" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wu" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ke" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wen" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jun" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sun" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xingdong" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "X" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yang" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jacob" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "J" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Kocher" .
+
+<http://tcga.deri.ie/pubmed/24280990/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Yongguo" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Y" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhang" .
+
+<http://tcga.deri.ie/pubmed/24280990>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Lactobacillus rhamnosus GG on rotavirus-induced injury of ileal epithelium in gnotobiotic pigs." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "*Department of Biomedical Sciences and Pathobiology, Virginia-Maryland Regional College of Veterinary Medicine, Virginia Polytechnic Institute and State University, Blacksburg, VA †Department of Biochemistry, Rush University, Chicago, IL." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24280990/author/4> , <http://tcga.deri.ie/pubmed/24280990/author/3> , <http://tcga.deri.ie/pubmed/24280990/author/9> , <http://tcga.deri.ie/pubmed/24280990/author/11> , <http://tcga.deri.ie/pubmed/24280990/author/7> , <http://tcga.deri.ie/pubmed/24280990/author/8> , <http://tcga.deri.ie/pubmed/24280990/author/5> , <http://tcga.deri.ie/pubmed/24280990/author/1> , <http://tcga.deri.ie/pubmed/24280990/author/6> , <http://tcga.deri.ie/pubmed/24280990/author/10> , <http://tcga.deri.ie/pubmed/24280990/author/2> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24280990/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, N.I.H., Extramural" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24280990/abstract> ;
+      dcterms:identifier "pubmed:24280990" ;
+      dcterms:language "eng" ;
+      dcterms:title "Lactobacillus rhamnosus GG on rotavirus-induced injury of ileal epithelium in gnotobiotic pigs." .
+
+<http://tcga.deri.ie/pubmed/24280990/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Tammy" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "T" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Bui" .

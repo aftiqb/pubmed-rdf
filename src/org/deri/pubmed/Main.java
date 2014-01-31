@@ -24,7 +24,7 @@ import banner.eval.LinkedTcgaBanner;
 public class Main {
 	String pubmedURL="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi";
 	Integer days = 1;
-	public static String serialization = "N-TRIPLES";
+	public static String serialization = "TURTLE";
 	
 	public void getLatestArticles(int days, String graphURI, String filePath, LinkedTcgaBanner diseaseBanner, LinkedTcgaBanner geneBanner) {
 		LookUp obj = new LookUp();
@@ -48,25 +48,33 @@ public class Main {
 	        Document doc = builder.parse(is);
 	        
 	        int count = search.getResultCounts(doc);
-	        System.out.println(count);
 	        ArrayList<String> lstIDs = getIDs(count,days, graphURI, filePath, search);
 	        
 	        Publish publish = new Publish();
 	        Model model = null;
 	        
-	        //String id = "24474151";
-	        //String id = "24474393";
+	        ////////////////////// for testing purpose only //////////////////////////
+	        lstIDs = new ArrayList<String>();
+//	        lstIDs.add("24407023");lstIDs.add("24300559");lstIDs.add("24463490");lstIDs.add("24436845");lstIDs.add("24396034");lstIDs.add("24475018");
+//	        lstIDs.add("24463996");lstIDs.add("24452594");lstIDs.add("24440614");lstIDs.add("24403485");lstIDs.add("24375787");lstIDs.add("24374177");
+//	        lstIDs.add("24350420");lstIDs.add("24325055");lstIDs.add("24324465");lstIDs.add("24313617");lstIDs.add("24313043");lstIDs.add("24309609");
+//	        lstIDs.add("24305708");lstIDs.add("24296882");lstIDs.add("23233044");lstIDs.add("23314866");lstIDs.add("24102374");lstIDs.add("23709676");
+//	        lstIDs.add("24177041");lstIDs.add("24002543");lstIDs.add("23811386");lstIDs.add("23777451");lstIDs.add("23666700");lstIDs.add("23464222");
+//	        lstIDs.add("23055020");lstIDs.add("22998857");lstIDs.add("23588197");lstIDs.add("23598976");lstIDs.add("23707302");lstIDs.add("23846349");
+//	        lstIDs.add("24218181");lstIDs.add("24225484");lstIDs.add("24236654");lstIDs.add("24240593");lstIDs.add("24280990");lstIDs.add("24296882");
+//	        lstIDs.add("24305708");lstIDs.add("24309609");lstIDs.add("24313043");lstIDs.add("24394385");lstIDs.add("24411092");lstIDs.add("24393633");
+//	        lstIDs.add("24411087");lstIDs.add("24388700");lstIDs.add("24411089");lstIDs.add("24472679");lstIDs.add("24474195");lstIDs.add("24474395");
+//	        lstIDs.add("24394591");lstIDs.add("24398227");lstIDs.add("24398226");lstIDs.add("24393634");
+	        //////////////////////////////////////////////////////////////////////////
+	        
+	        
+
 	        for(String id:lstIDs) {
 	        	System.out.println("processing: " + id);
 	        	Document article = obj.getArticle(id, graphURI, filePath);
 	        	
 	        	ArrayList<Article> lstArticle = obj.processXMLResponse(article, id, graphURI, filePath);
 	        	for(Article art:lstArticle) {
-	        		//ArrayList<String> lstDisease = publish.getAnnotations_Disease(art.getArticleAbstract(), diseaseBanner);
-	        		//for(String disease:lstDisease)
-	        		//System.out.println("**********************************************************");
-	        		//System.out.println("publishing: " + art.getId());
-	        		
 	        		model = publish.convertToRDF(art, graphURI, diseaseBanner, geneBanner, dsModel);
 	        		publish.publishRDFData(model, id, serialization, filePath);
 	        	}
@@ -99,8 +107,6 @@ public class Main {
 	        for (int i = 0; i < nl.getLength(); i++) {
 	        	Element ele = (Element) nl.item(i);
 	        	lstIDs.add(ele.getTextContent());
-//	        	System.out.println("publishing article: " + ele.getTextContent());
-//	        	obj.getArticle(ele.getTextContent(), graphURI, filePath, diseaseBanner);
 	        }
 	        
 		} catch(Exception ex) {
@@ -109,7 +115,6 @@ public class Main {
 			return null;
 		}
 		
-        //System.out.println(lstIDs.size());
 		return lstIDs;
 	}
 	
@@ -118,8 +123,6 @@ public class Main {
 		LinkedTcgaBanner diseaseBanner = new LinkedTcgaBanner("config/banner_NCBIDisease_DEV.xml");
 		LinkedTcgaBanner geneBanner = new LinkedTcgaBanner("config/banner_UIMA_TEST.xml");
 		
-		obj.getLatestArticles(1, "", "data/test/", diseaseBanner, geneBanner);
+		obj.getLatestArticles(1, "", "data/", diseaseBanner, geneBanner);
 	}
 }
-// 24474395, 24474195, 24472679, 24411092, 24411089, 24411087, 24398227, 24398226, 24394591, 24394385, 24393634
-// 24393633, 24388700, 

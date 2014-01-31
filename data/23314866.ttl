@@ -1,0 +1,337 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Avian Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/13>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Humans" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Humans" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Fibroblast Growth Factor 2" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Fibroblast Growth Factor 2" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pharmacology" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "HEK293 Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "HEK293 Cells" .
+
+<http://tcga.deri.ie/pubmed/23314866/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Sci China Life Sci" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "1" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Science China. Life sciences" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "56" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/17>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Recombinant Fusion Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Recombinant Fusion Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/11>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Telomerase" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "EC 2.7.7.49" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Animals" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Animals" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/9>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Green Fluorescent Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "147336-22-9" .
+
+<http://tcga.deri.ie/pubmed/23314866/author/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ning" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "N" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Li" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Binding Sites" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Binding Sites" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Transcription Factors" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/15>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Microscopy, Fluorescence" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Microscopy, Fluorescence" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Leukemia Inhibitory Factor" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/22>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Transcription Factors" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Transcription Factors" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Song" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lian" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Recombinant Fusion Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/20>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Telomerase" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Telomerase" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Green Fluorescent Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Green Fluorescent Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/7>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Chickens" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Chickens" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/19>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "SOXB1 Transcription Factors" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "SOXB1 Transcription Factors" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/10>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "TERT protein, human" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "EC 2.7.7.49" .
+
+<http://tcga.deri.ie/pubmed/23314866/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "ZhengXing" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Z" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lian" .
+
+<http://tcga.deri.ie/pubmed/23314866/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Kun" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "K" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yu" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cell Differentiation" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cell Differentiation" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/12>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Homeodomain Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Homeodomain Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Four recombinant pluripotency transcriptional factors containing a protein transduction domain maintained the in vitro pluripotency of chicken embryonic stem cells." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "National Key Laboratory of AgroBiotechnology, China Agricultural University, Beijing, 100193, China." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23314866/author/2> , <http://tcga.deri.ie/pubmed/23314866/author/1> , <http://tcga.deri.ie/pubmed/23314866/author/3> , <http://tcga.deri.ie/pubmed/23314866/author/6> , <http://tcga.deri.ie/pubmed/23314866/author/5> , <http://tcga.deri.ie/pubmed/23314866/author/7> , <http://tcga.deri.ie/pubmed/23314866/author/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:chemical>
+              <http://tcga.deri.ie/pubmed/23314866/chemical/1> , <http://tcga.deri.ie/pubmed/23314866/chemical/2> , <http://tcga.deri.ie/pubmed/23314866/chemical/3> , <http://tcga.deri.ie/pubmed/23314866/chemical/5> , <http://tcga.deri.ie/pubmed/23314866/chemical/11> , <http://tcga.deri.ie/pubmed/23314866/chemical/4> , <http://tcga.deri.ie/pubmed/23314866/chemical/8> , <http://tcga.deri.ie/pubmed/23314866/chemical/10> , <http://tcga.deri.ie/pubmed/23314866/chemical/9> , <http://tcga.deri.ie/pubmed/23314866/chemical/7> , <http://tcga.deri.ie/pubmed/23314866/chemical/6> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23314866/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_heading>
+              <http://tcga.deri.ie/pubmed/23314866/mesh_heading/13> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/12> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/9> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/11> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/14> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/17> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/18> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/1> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/2> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/16> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/3> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/15> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/4> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/21> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/22> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/20> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/7> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/10> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/19> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/8> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/5> , <http://tcga.deri.ie/pubmed/23314866/mesh_heading/6> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "MEDLINE" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23314866/abstract> ;
+      dcterms:identifier "pubmed:23314866" ;
+      dcterms:language "eng" ;
+      dcterms:title "Four recombinant pluripotency transcriptional factors containing a protein transduction domain maintained the in vitro pluripotency of chicken embryonic stem cells." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_4609> , <http://purl.obolibrary.org/obo/NCBIGene_24577> , <http://purl.obolibrary.org/obo/KEGG#_K04377> , <http://purl.obolibrary.org/obo/NCBIGene_71950> , <http://purl.obolibrary.org/obo/NCBIGene_414065> , <http://purl.obolibrary.org/obo/KEGG#_K10164> , <http://purl.bioontology.org/ontology/LNC/LP34539-4> , <http://purl.obolibrary.org/obo/NCBIGene_500562> , <http://purl.obolibrary.org/obo/NCBIGene_6657> , <http://purl.obolibrary.org/obo/NCBIGene_20674> , <http://purl.obolibrary.org/obo/NCBIGene_83557> , <http://purl.obolibrary.org/obo/NCBIGene_79923> , <http://purl.obolibrary.org/obo/NCBIGene_17869> , <http://purl.obolibrary.org/obo/NCBIGene_79727> , <http://purl.obolibrary.org/obo/NCBIGene_499593> , <http://purl.obolibrary.org/obo/MCBCC_0000053#MYC> .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/14>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Leukemia Inhibitory Factor" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Leukemia Inhibitory Factor" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "pharmacology" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/18>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Reverse Transcriptase Polymerase Chain Reaction" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Reverse Transcriptase Polymerase Chain Reaction" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Fibroblast Growth Factor 2" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "103107-01-3" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Avian Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Avian Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "genetics" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/16>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Pluripotent Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Pluripotent Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "cytology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "SOXB1 Transcription Factors" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23314866/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Long-term in vitro maintenance of embryonic stem cell (ESC) pluripotency enables the pluripotency and differentiation of ESCs in animals to be investigated. The ability to successfully maintain and differentiate chicken embryonic stem cells (cESCs) would provide a useful tool for avian biology research and would be a resource directly applicable to agricultural production. In this study, endogenous chicken pluripotency transcription factors, POUV, Sox-2, Nanog and Lin28 were cloned and expressed as recombinant proteins containing a nine consecutive arginine protein transduction domain (PTD). cESCs were cultured with these recombinant proteins to maintain cESC pluripotency in vitro. Cultured cESCs exhibited typical characteristics of pluripotency, even after six generations of rapid doubling, including positive staining for stage-specific embryonic antigen I, and strong staining for alkaline phosphatase. Expression levels of the pluripotency markers, POUV, Nanog, C-Myc, Sox-2 and Lin28 were the same as in uncultured stage X blastoderm cells, and most significantly, the formation of embryoid bodies (EBs) by 6th generation cESCs confirmed the ability of these cultured cESCs to differentiate into cells of all three embryonic germ layers. Thus, transcription factors could be translocated through the cell membrane into the intracellular space of cESCs by using a PTD of nine consecutive arginines and the pluripotency of cESCs could be maintained in vitro for at least six generations." .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Blotting, Western" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Blotting, Western" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Homeodomain Proteins" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/21>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Time Factors" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Time Factors" .
+
+<http://tcga.deri.ie/pubmed/23314866/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "MiaoYing" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Yu" .
+
+<http://tcga.deri.ie/pubmed/23314866/chemical/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Chemical> ;
+      rdfs:label "Lif protein, mouse" ;
+      <http://bio2rdf.org/pubmed_vocabulary:cas_registry_number>
+              "0" .
+
+<http://tcga.deri.ie/pubmed/23314866/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "HongBing" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Han" .
+
+<http://tcga.deri.ie/pubmed/23314866/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "GuiGuan" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "G" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Li" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/8>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Embryonic Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Embryonic Stem Cells" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "cytology" , "metabolism" .
+
+<http://tcga.deri.ie/pubmed/23314866/mesh_heading/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:MeshHeading> ;
+      rdfs:label "Cell Proliferation" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_descriptor_name>
+              "Cell Proliferation" ;
+      <http://bio2rdf.org/pubmed_vocabulary:mesh_qualifier_name>
+              "drug effects" .

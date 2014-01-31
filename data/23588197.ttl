@@ -1,0 +1,79 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23588197/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The generation of new neurons from neural stem cells (NSCs) throughout adult life in the mammalian brain is a biological process that fascinates scientists for its uniqueness and restorative potential. In the dentate gyrus (DG) of the hippocampus NSCs are able to self-renew and generate new granule cells and astrocytes through a complex and plastic mechanism that can be regulated by endogenous and exogenous cues at different levels. Unexpected recent findings suggest that the population of NSCs is heterogeneous in morphology and behavior. We herein explore the hypothesis that NSC heterogeneity and the neurogenic potential of the DG depends on their developmental origin. We provide an up-to-date picture of the process of neurogenesis in the adult hippocampus with an especial focus on NSCs and outline key unsolved aspects. Further, we discuss the origin of NSCs in the adult DG from a developmental perspective and explore the possibility of NSC heterogeneity being determined from early postnatal periods and being responsible for the neurogenic output of the DG in the long term." .
+
+<http://tcga.deri.ie/pubmed/23588197/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Juan M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Encinas" .
+
+<http://tcga.deri.ie/pubmed/23588197/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Amanda" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Sierra" .
+
+<http://tcga.deri.ie/pubmed/23588197/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Roberto" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "R" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Valcárcel-Martín" .
+
+<http://tcga.deri.ie/pubmed/23588197/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Soraya" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Martín-Suárez" .
+
+<http://tcga.deri.ie/pubmed/23588197/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Int. J. Dev. Neurosci." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "7" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "International journal of developmental neuroscience : the official journal of the International Society for Developmental Neuroscience" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "31" .
+
+<http://tcga.deri.ie/pubmed/23588197>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "A developmental perspective on adult hippocampal neurogenesis." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Achucarro Basque Center for Neuroscience, Ikerbasque, the Basque Center for Neuroscience and University of the Basque Country (UPV/EHU), Bizkaia Technological Park, Bldg. 205, 48170 Zamudio, Bizkaia, Spain; Department of Neuroscience, Faculty of Medicine and Odontology, University of the Basque Country (UPV/EHU), Barrio Sarriena s/n, 48940 Leioa, Bizkaia, Spain. Electronic address: jm.encinas@ikerbasque.org." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23588197/author/1> , <http://tcga.deri.ie/pubmed/23588197/author/2> , <http://tcga.deri.ie/pubmed/23588197/author/3> , <http://tcga.deri.ie/pubmed/23588197/author/4> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23588197/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, Non-U.S. Gov't" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23588197/abstract> ;
+      dcterms:identifier "pubmed:23588197" ;
+      dcterms:language "eng" ;
+      dcterms:title "A developmental perspective on adult hippocampal neurogenesis." .

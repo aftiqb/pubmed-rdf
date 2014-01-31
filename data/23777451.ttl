@@ -1,0 +1,71 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/23777451/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Although adolescence is a time of individuation with increased reliance on peers, research indicates that, despite a deliberate distancing from parents, adolescents continue to seek the support and console of parental attachment figures in times of distress. The Perceived Parental Reactions to Adolescent Distress (PRAD) is a brief self-report measure developed to examine adolescents' perception of parental response under conditions of distress as measured by four conceptually and empirically distinct parental reactions to distress: Comfort, Self-Focus, Avoidance and Harshness. Across two studies involving a total of 738 high school students, we developed the PRAD and substantiated its robust psychometric properties, including evidence for reliability as well as internal and criterion validity. Sources of individual differences in the test-scores were also explored. Empirical as well as practical importance of assessing parental reactions to adolescent distress is discussed with regard to both the attachment and adolescent development literature." .
+
+<http://tcga.deri.ie/pubmed/23777451>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Perceived Parental Reactions to Adolescent Distress: development and validation of a brief measure." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "a Child Study Center , Yale University , New Haven , CT , USA." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/23777451/author/1> , <http://tcga.deri.ie/pubmed/23777451/author/2> , <http://tcga.deri.ie/pubmed/23777451/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/23777451/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/23777451/abstract> ;
+      dcterms:identifier "pubmed:23777451" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Perceived Parental Reactions to Adolescent Distress: development and validation of a brief measure." ;
+      skos:related <http://tcga.deri.ie/graph/PRAD> .
+
+<http://tcga.deri.ie/pubmed/23777451/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Baptiste" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "B" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Barbot" .
+
+<http://tcga.deri.ie/pubmed/23777451/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sasha L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "SL" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Heinz" .
+
+<http://tcga.deri.ie/pubmed/23777451/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Attach Hum Dev" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Attachment & human development" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/23777451/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Suniya S" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "SS" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Luthar" .

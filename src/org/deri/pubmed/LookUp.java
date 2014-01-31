@@ -55,7 +55,6 @@ public class LookUp {
 	        Document doc = builder.parse(is);
 	        
 	        return doc;
-	        //processXMLResponse(doc, id, graphURI, filePath, diseaseBanner);
 	        
 		} catch(Exception ex) {
 			System.out.println("Invalid XML stream for: " + id);
@@ -63,7 +62,6 @@ public class LookUp {
 			return null;
 		}
 		
-		//return null;
 	}
 	
 	// parse content of XML to get details
@@ -75,25 +73,12 @@ public class LookUp {
 		NodeList responseNodes = doc.getElementsByTagName("PubmedArticle");
         for (int i = 0; i < responseNodes.getLength(); i++) {
         	Element element = (Element)responseNodes.item(i);
-        	
         	// do processing here...
         	lstArticle.add(processArticleDetails(element));
-        	//System.out.println(processArticleDetails(element).toString());
         	
         }
 		
         return lstArticle;
-//        if(responseNodes.getLength() != 0) {
-//        	Publish obj = new Publish();
-//        	Model model = null;
-//        	for(Article article:lstArticle) {
-//        		//System.out.println("************************************************");
-//        		model = obj.convertToRDF(article, graphURI, diseaseBanner);
-//        		obj.publishRDFData(model, id, serialization, filePath);
-//        	}
-//        }
-//        else
-//        	System.out.println("No article found");
 	}
 	
 	// parse content of an individual article from XML
@@ -114,7 +99,6 @@ public class LookUp {
 		Element el = null;
 		if(element.getElementsByTagName("MedlineCitation").getLength() >= 1) {
 			el = (Element)element.getElementsByTagName("MedlineCitation").item(0);
-			//System.out.println("article: " + el.getAttribute("Owner") + " -- " + el.getAttribute("Status"));
 			article.setOwner(el.getAttribute("Owner"));
 			article.setStatus(el.getAttribute("Status"));
 		}
@@ -199,7 +183,6 @@ public class LookUp {
 			for (int i = 0; i < nl.getLength(); i++) {
 				Element ele = (Element) nl.item(i);
 				heading = new MeshHeading();
-				//System.out.println("===================================");
 				if(ele.getElementsByTagName("DescriptorName").getLength() >=1)
 					heading.setDescriptorName(ele.getElementsByTagName("DescriptorName").item(0).getTextContent());
 				if(ele.getElementsByTagName("QualifierName").getLength() >=1) {
@@ -216,33 +199,10 @@ public class LookUp {
 		}
 		
 		
-//		print(article);
-		
 		return article;
 	}
 	
-	
-//	public void print(Article article) {
-//		System.out.println("****************************************************");
-//		System.out.println("id: " + article.getId());
-//		System.out.println("identifier: " + article.getPubmedIdentifier());
-//		System.out.println("label: " + article.getLabel());
-//		System.out.println("abstract: " + article.getArticleAbstract());
-//		System.out.println("owner: " + article.getOwner());
-//		System.out.println("affiliation: " + article.getAffiliation());
-//		System.out.println("status: " + article.getStatus());
-//		System.out.println("pubModel: " + article.getPublicationModel());
-//		System.out.println("language: " + article.getLanguage());
-//		System.out.println("headings: " + article.getLstHeading().toString());
-//		System.out.println("chemicals: " + article.getLstChemical().toString());
-//		System.out.println("authors: " + article.getLstAuthor().toString());
-//		System.out.println("pubType: " + article.getLstPublicationType().toString());
-//		System.out.println("journalAbb: " + article.getJrnl().getJournalAbbreviation());
-//		System.out.println("journalVol: " + article.getJrnl().getJournalVolume());
-//		System.out.println("journalIss: " + article.getJrnl().getJournalIssue());
-//		System.out.println("journalTitle: " + article.getJrnl().getJournalTitle());
-//	}
-	
+		
 	public InputStream getXMLResponse(String id) {
 		try {
 			
@@ -250,30 +210,11 @@ public class LookUp {
 			url = new URL(pubmedURL + "?db=pubmed&id=" + id + "&rettype=xml&retmode=text");
 			
 			URLConnection con = url.openConnection();
-
-        	//System.out.println("Requesting :" + url.toString());
-//        	System.out.println(con.getHeaderFields().toString());
-//        	
-//        	BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-//        	String inputLine;
-//        	while ((inputLine = in.readLine()) != null)
-//        	    System.out.println(inputLine);
-//        	
         	
         	return con.getInputStream();
-//        	
-//        	// Check for status OK.
-//            if (con.getHeaderField("null").startsWith("200")) {
-//            	return con.getInputStream();
-//            }
-//            else {
-//            	System.out.println("Request failed for url: " + url.toString());
-//                return null;
-//            }
 			
 		} catch (Exception e) {
 			System.out.println("exception in getXMLResponse: " + e.getLocalizedMessage());
-			//e.printStackTrace();
 			return null;
         }
 		

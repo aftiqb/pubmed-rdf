@@ -1,0 +1,89 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24398227/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Dave" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Chapman" .
+
+<http://tcga.deri.ie/pubmed/24398227/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Linda" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Dixon" .
+
+<http://tcga.deri.ie/pubmed/24398227/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Vet. Microbiol." ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "2-4" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Veterinary microbiology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "168" .
+
+<http://tcga.deri.ie/pubmed/24398227/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Dirk" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "D" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Werling" .
+
+<http://tcga.deri.ie/pubmed/24398227/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "The expression of surface markers on African swine fever virus (ASFV) infected cells was evaluated to assess their involvement in infection. Previous findings indicated CD163 expression was correlated with ASFV susceptibility. However, in this study the expression of porcine CD163 on cell lines did not increase the infection rate of these cells indicating other factors are likely to be important in determining susceptibility to infection. On adherent porcine bone marrow (pBM) cells the expression of CD45 was strongly correlated with infection. CD163 and CD203a expression correlated at intermediate levels with infection, indicating cells expressing these markers could become infected but were not preferentially infected by the virus. Most of the cells expressing MHCII were infected, indicating that they may be preferentially infected although expression of MHCII was not essential for infection and a large percentage of the infected cells were MHCII negative. CD16 showed a marked decrease in expression following infection and significantly lower levels of infected cells were shown to express CD16. Altogether these results suggest CD163 may be involved in ASFV infection but it may not be essential; the results also highlight the importance of other cell markers which requiring further investigation." .
+
+<http://tcga.deri.ie/pubmed/24398227/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Pamela" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "P" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Lithgow" .
+
+<http://tcga.deri.ie/pubmed/24398227/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Haru" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Takamatsu" .
+
+<http://tcga.deri.ie/pubmed/24398227>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Correlation of cell surface marker expression with African swine fever virus infection." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "The Pirbright Institute, Ash Road, Pirbright GU24 0NF, United Kingdom." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24398227/author/5> , <http://tcga.deri.ie/pubmed/24398227/author/4> , <http://tcga.deri.ie/pubmed/24398227/author/3> , <http://tcga.deri.ie/pubmed/24398227/author/1> , <http://tcga.deri.ie/pubmed/24398227/author/2> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24398227/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Data-Review" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24398227/abstract> ;
+      dcterms:identifier "pubmed:24398227" ;
+      dcterms:language "eng" ;
+      dcterms:title "Correlation of cell surface marker expression with African swine fever virus infection." ;
+      skos:related <http://purl.obolibrary.org/obo/NCBIGene_5788> , <http://purl.obolibrary.org/obo/NCBIGene_19264> , <http://purl.obolibrary.org/obo/NCBIGene_2214> , <http://purl.obolibrary.org/obo/LSM_0000203> , <http://purl.bioontology.org/ontology/LNC/LP68378-6> .

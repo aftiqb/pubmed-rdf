@@ -1,0 +1,61 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24440614>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Commensal and probiotic bacteria may prevent NEC by maturing intestinal host defenses." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Emory University School of Medicine, Department of Pediatrics, Division of Neonatology, Atlanta, GA, United States." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24440614/author/2> , <http://tcga.deri.ie/pubmed/24440614/author/1> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24440614/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print-Electronic" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "JOURNAL ARTICLE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "Publisher" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24440614/abstract> ;
+      dcterms:identifier "pubmed:24440614" ;
+      dcterms:language "ENG" ;
+      dcterms:title "Commensal and probiotic bacteria may prevent NEC by maturing intestinal host defenses." .
+
+<http://tcga.deri.ie/pubmed/24440614/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Patricia W" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "PW" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Denning" .
+
+<http://tcga.deri.ie/pubmed/24440614/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Brett M" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "BM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Jakaitis" .
+
+<http://tcga.deri.ie/pubmed/24440614/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Pathophysiology" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Pathophysiology : the official journal of the International Society for Pathophysiology / ISP" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "" .
+
+<http://tcga.deri.ie/pubmed/24440614/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Necrotizing enterocolitis (NEC) is a devastating disease of prematurity with significant morbidity and mortality. Immaturity of intestinal host defenses predisposes the premature infant gut to injury. An abnormal bacterial colonization pattern with a deficiency of commensal bacteria may lead to a further breakdown of these host defense mechanisms, predisposing the infant to NEC. The presence of probiotic and commensal bacteria within the gut has been shown to mature the intestinal defense system through a variety of mechanisms. We have shown that commensal and probiotic bacteria can promote intestinal host defenses by reducing apoptotic signaling, blocking inflammatory signaling, and maturing barrier function in immature intestinal epithelia. Future studies aimed at elucidating the mechanisms by which probiotic and commensal bacteria exert their effects will be critical to developing effective preventive therapies for NEC." .

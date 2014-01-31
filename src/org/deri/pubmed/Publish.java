@@ -28,7 +28,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
  */
 public class Publish {
 
-	String baseURI = "http://linked2safety.deri.org/pubmed/";
+	String baseURI = "http://tcga.deri.ie/pubmed/";
 	
 	public Model convertToRDF(Article article, String graphURI, LinkedTcgaBanner diseaseBanner, LinkedTcgaBanner geneBanner, DataStoreModel dsModel) {
 		int count = 1;
@@ -140,11 +140,7 @@ public class Publish {
 		Map<String, Set<Mention>>  map = diseaseBanner.getMentions(text);
         for(String sentence: map.keySet()) {
         	for(Mention m: map.get(sentence)) {
-        		//System.out.println("> " + m.getEntityType() + " - "+ m.getText());
-        		//System.out.println(m.getEntityType());
         		if(m.getEntityType().toString().trim().equals("Disease")) {
-        			//System.out.println("yes");
-        			// get disease URI from DiseaseOntology
         			String diseaseURI = dsModel.getDiseaseURI_RDFSLABEL(m.getText().toLowerCase());
         			if(!diseaseURI.equals("")) {
         				if(!lstDiseaseURIs.contains(diseaseURI))
@@ -174,8 +170,8 @@ public class Publish {
         		}
         	}
         }
-        // 24474393 , this article returns URI three times, check this case
-        //System.out.println(lstDiseaseURIs.toString());
+
+        System.out.println("disease URIs --> " + lstDiseaseURIs.toString());
         return lstDiseaseURIs;
 	}
 
@@ -185,10 +181,7 @@ public class Publish {
 		Map<String, Set<Mention>>  map = geneBanner.getMentions(text);
         for(String sentence: map.keySet()) {
         	for(Mention m: map.get(sentence)) {
-        		System.out.println("> " + m.getEntityType() + " - "+ m.getText());
         		if(m.getEntityType().toString().trim().equals("GENE")) {
-        			System.out.println("gene found ...");
-        			//in lower case
         			lstURIs = new ArrayList<String>();
         			lstURIs = dsModel.getGeneURI_RDFSLABEL(m.getText().toLowerCase());
         			if(lstURIs.size() > 0) {
@@ -208,7 +201,7 @@ public class Publish {
         		}
         	}
         }
-        System.out.println(lstGeneURIs.toString());
+        System.out.println("gene URIs --> " + lstGeneURIs.toString());
         return lstGeneURIs;
 	}
 
@@ -293,7 +286,6 @@ public class Publish {
 		try {
 			OutputStream output = new FileOutputStream(filePath + fileName + fileExt,false);
 			model.write(output,serialization.toUpperCase());
-			//model.write(System.out,serialization.toUpperCase());
 		}catch(Exception e) {
 	   		System.out.println("Error while publishing RDF file: " + e.getMessage());
 	   	}

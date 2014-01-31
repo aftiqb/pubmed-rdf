@@ -1,0 +1,97 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24325055/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Sai-qin" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "SQ" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Xue" .
+
+<http://tcga.deri.ie/pubmed/24325055>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "[Discriminatory analyses of climacteric syndrome patients of shen deficiency syndrome]." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Testing, Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing (100091), China." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24325055/author/5> , <http://tcga.deri.ie/pubmed/24325055/author/1> , <http://tcga.deri.ie/pubmed/24325055/author/6> , <http://tcga.deri.ie/pubmed/24325055/author/2> , <http://tcga.deri.ie/pubmed/24325055/author/4> , <http://tcga.deri.ie/pubmed/24325055/author/3> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24325055/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "English Abstract" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24325055/abstract> ;
+      dcterms:identifier "pubmed:24325055" ;
+      dcterms:language "chi" ;
+      dcterms:title "[Discriminatory analyses of climacteric syndrome patients of shen deficiency syndrome]." .
+
+<http://tcga.deri.ie/pubmed/24325055/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Qi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "Q" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Li" .
+
+<http://tcga.deri.ie/pubmed/24325055/author/6>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Xiao-hong" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "XH" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Shang" .
+
+<http://tcga.deri.ie/pubmed/24325055/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Zhongguo Zhong Xi Yi Jie He Za Zhi" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "8" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Zhongguo Zhong xi yi jie he za zhi Zhongguo Zhongxiyi jiehe zazhi = Chinese journal of integrated traditional and Western medicine / Zhongguo Zhong xi yi jie he xue hui, Zhongguo Zhong yi yan jiu yuan zhu ban" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "33" .
+
+<http://tcga.deri.ie/pubmed/24325055/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Pei-yun" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "PY" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Zhou" .
+
+<http://tcga.deri.ie/pubmed/24325055/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "To find out a set of practical,objective, and quantitative laboratory indices of climacteric syndrome (CS) patients of Shen deficiency syndrome (SDS), thus studying the essence of SDS from the perspective of laboratory medicine." .
+
+<http://tcga.deri.ie/pubmed/24325055/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Jing-hong" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "JH" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Xie" .
+
+<http://tcga.deri.ie/pubmed/24325055/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Hao" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Li" .

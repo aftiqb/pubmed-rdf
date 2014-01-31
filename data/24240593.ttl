@@ -1,0 +1,89 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pubmed:  <http://bio2rdf.org/pubmed_vocabulary:> .
+@prefix skos:    <http://www.w3.org/2008/05/skos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://tcga.deri.ie/pubmed/24240593/author/3>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Aubri A" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "AA" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Rush" .
+
+<http://tcga.deri.ie/pubmed/24240593/abstract>
+      a       <http://bio2rdf.org/pubmed_vocabulary:ArticleAbstract> ;
+      <http://bio2rdf.org/pubmed_vocabulary:abstract_text>
+              "Recent clinical trials show Lactobacillus rhamnosus GG (LGG) administration in critical illness has the potential to reduce nosocomial infections and improve clinical outcome. However, the mechanism(s) of LGG-mediated benefit following illness and injury remain elusive." .
+
+<http://tcga.deri.ie/pubmed/24240593>
+      a       <http://bio2rdf.org/pubmed_vocabulary:PubMedRecord> ;
+      rdfs:label "Lactobacillus rhamnosus GG improves outcome in experimental pseudomonas aeruginosa pneumonia: potential role of regulatory T cells." ;
+      <http://bio2rdf.org/pubmed_vocabulary:affiliation>
+              "Department of Anesthesiology, University of Colorado School of Medicine, Aurora, Colorado." ;
+      <http://bio2rdf.org/pubmed_vocabulary:author>
+              <http://tcga.deri.ie/pubmed/24240593/author/3> , <http://tcga.deri.ie/pubmed/24240593/author/4> , <http://tcga.deri.ie/pubmed/24240593/author/2> , <http://tcga.deri.ie/pubmed/24240593/author/1> , <http://tcga.deri.ie/pubmed/24240593/author/5> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal>
+              <http://tcga.deri.ie/pubmed/24240593/Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:owner>
+              "NLM" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_model>
+              "Print" ;
+      <http://bio2rdf.org/pubmed_vocabulary:publication_type>
+              "Journal Article" , "Research Support, N.I.H., Extramural" ;
+      <http://bio2rdf.org/pubmed_vocabulary:status>
+              "In-Process" ;
+      dcterms:abstract <http://tcga.deri.ie/pubmed/24240593/abstract> ;
+      dcterms:identifier "pubmed:24240593" ;
+      dcterms:language "eng" ;
+      dcterms:title "Lactobacillus rhamnosus GG improves outcome in experimental pseudomonas aeruginosa pneumonia: potential role of regulatory T cells." ;
+      skos:related <http://tcga.deri.ie/graph/LGG> .
+
+<http://tcga.deri.ie/pubmed/24240593/author/4>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Eoin N" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "EN" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "McNamee" .
+
+<http://tcga.deri.ie/pubmed/24240593/author/2>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Christine H" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "CH" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Baird" .
+
+<http://tcga.deri.ie/pubmed/24240593/author/1>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Ludmila" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "L" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Khailova" .
+
+<http://tcga.deri.ie/pubmed/24240593/Journal>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Journal> ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_abbreviation>
+              "Shock" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_issue>
+              "6" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_title>
+              "Shock (Augusta, Ga.)" ;
+      <http://bio2rdf.org/pubmed_vocabulary:journal_volume>
+              "40" .
+
+<http://tcga.deri.ie/pubmed/24240593/author/5>
+      a       <http://bio2rdf.org/pubmed_vocabulary:Author> ;
+      <http://bio2rdf.org/pubmed_vocabulary:fore_name>
+              "Paul E" ;
+      <http://bio2rdf.org/pubmed_vocabulary:initials>
+              "PE" ;
+      <http://bio2rdf.org/pubmed_vocabulary:last_name>
+              "Wischmeyer" .
