@@ -1,0 +1,192 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix tcga:  <http://tcga.deri.ie/schema/>.
+<http://tcga.aksw.org/disease/DLBC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/DLBC> ;
+                                  rdfs:label  "Histiocytic Lymphoma" ;
+                                  tcga:label  "Lymphoid Neoplasm Diffuse Large B-cell" ;
+                                  tcga:acronym  "DLBC" ;
+                                  tcga:synonyms "Lymphoid Neoplasm Diffuse Large B-cell", "reticulum cell lymphoma", "clasmotocytic lymphoma"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/CSP/2004-7036> . 
+<http://tcga.aksw.org/disease/SKCM>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/SKCM> ;
+                                  rdfs:label  "Cutaneous melanoma" ;
+                                  tcga:label  "Cutaneous melanoma" ;
+                                  tcga:acronym  "SKCM" ;
+                                  tcga:synonyms "Cutaneous melanoma", "Skin, Melanoma", "Melanoma of the Skin", "Malignant Melanoma of Skin Stage Unspecified", "Melanoma of Skin", "Malignant Cutaneous Melanoma", "Skin Melanoma", "Malignant Melanoma (of Skin), Stage Unspecified", "Malignant Melanoma of Skin", "Malignant melanoma of skin NOS", "Melanoma of skin, site unspecified", "Malignant melanoma of skin of other and unspecified parts of face", "Malignant melanoma of skin (disorder)", "Malignant melanoma of other specified skin site", "Malignant melanoma of other specified sites of skin", "Malignant melanoma of skin NOS (disorder)", "Cutaneous malignant melanoma", "MAL MELANOM FACE NEC/NOS", "MALIG MELANOMA SKIN NOS", "XMalignant melanoma of skin, unspecified", "MM - Malignant melanoma of skin", "Malignant melanoma of skin, NOS", "XMalignant melanoma of skin, unspecified (disorder)", "MALIG MELANOMA SKIN NEC", "Malignant melanoma of other specified skin site (disorder)", "cancer of skin"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3510>, <http://purl.bioontology.org/ontology/OMIM/MTHU035644>, <http://www.ebi.ac.uk/efo/EFO_0000389>, <http://purl.obolibrary.org/obo/HP_0012056> . 
+<http://tcga.aksw.org/disease/GBM>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/GBM> ;
+                                  rdfs:label  "Glioblastoma multiforme" ;
+                                  tcga:label  "Glioblastoma multiforme" ;
+                                  tcga:acronym  "GBM" ;
+                                  tcga:synonyms "Glioblastoma multiforme", "Glioblastoma multiforme (disorder)", "MGlioblastoma NOS", "Astrocytoma, Grade IV", "GLM - Glioblastoma multiforme", "GBM - Glioblastoma multiforme", "Glioblastoma (morphologic abnormality)", "GBM (Glioblastoma)", "Glioblastoma, no ICD-O subtype", "Grade IV Astrocytomas", "Optic Glioma", "MGlioblastoma NOS (morphologic abnormality)", "Grade IV Astrocytoma", "Glioblastoma, NOS", "Glioblastomas", "Giant Cell Glioblastoma", "Glioblastoma", "Grade IV Astrocytic Neoplasm", "Optic Nerve Glioma", "Astrocytomas, Grade IV", "Glioblastoma NOS (morphologic abnormality)", "Glioblastoma, Giant Cell", "GBM", "Spongioblastoma Multiforme", "Malignant Optic Nerve Astrocytoma", "Grade IV Astrocytic Tumor", "Giant Cell Glioblastomas", "Glioblastoma, no ICD-O subtype (morphologic abnormality)", "Glioblastomas, Giant Cell", "glioblastoma", "anaplastic astrocytoma", "giant cell glioblastoma", "spongioblastoma multiforme"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/SNOMEDCT/393563007>, <http://purl.bioontology.org/ontology/MDR/10018337>, <http://www.ebi.ac.uk/efo/EFO_0000519>, <http://purl.bioontology.org/ontology/RCD/XM0B6>, <http://purl.obolibrary.org/obo/HP_0012174>, <http://www.owl-ontologies.com/unnamed.owl#RID17181>, <http://purl.bioontology.org/ontology/CSP/2012-6410> . 
+<http://tcga.aksw.org/disease/ESCA>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/ESCA> ;
+                                  rdfs:label  "Esophageal carcinoma" ;
+                                  tcga:label  "Esophageal carcinoma" ;
+                                  tcga:acronym  "ESCA" ;
+                                  tcga:synonyms "Esophageal carcinoma", "Carcinoma of Esophagus", "Esophageal cancer, NOS", "Cancer of the Esophagus", "Cancer of Esophagus", "Esophageal Cancer", "Carcinoma of the Esophagus", "Esophagus Carcinoma", "NEOPL ESOPHAGEAL", "ESOPHAGUS NEOPL", "Esophagus Cancer", "Esophagus Neoplasms", "Esophagus Cancers", "Neoplasms, Esophagus", "Neoplasm, Esophageal", "Cancers, Esophageal", "Esophageal Cancers", "ESOPHAGEAL NEOPL", "Cancer, Esophageal", "Neoplasm, Esophagus", "Esophagus Neoplasm", "Esophageal Neoplasms", "Cancers, Esophagus", "Esophageal Neoplasm", "Cancer, Esophagus", "Neoplasms, Esophageal", "carcinoma of oesophagus", "cancer of esophagus", "carcinoma of esophagus (disorder)", "carcinoma OF ESOPHAGUS", "cancer of oesophagus"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10015366>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3513>, <http://purl.bioontology.org/ontology/OMIM/MTHU017591>, <http://www.ebi.ac.uk/efo/EFO_0002916>, <http://purl.obolibrary.org/obo/DOID_1107>, <http://purl.obolibrary.org/obo/HP_0011459>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_1107>, <http://purl.org/obo/owl/HP#HP_0011459> . 
+<http://tcga.aksw.org/disease/ACC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/ACC> ;
+                                  rdfs:label  "Adrenocortical carcinoma" ;
+                                  tcga:label  "Adrenocortical carcinoma" ;
+                                  tcga:acronym  "ACC" ;
+                                  tcga:synonyms "Adrenocortical carcinoma", "carcinoma of the Adrenal cortex", "Adrenal cortical carcinoma (morphologic abnormality)", "Adrenal gland carinoma", "Adrenal carcinoma", "Carcinomas, Adrenal Cortical", "Adrenocortical Carcinomas", "Carcinomas, Adrenocortical", "Carcinoma, Adrenocortical", "Carcinoma, Adrenal Cortical", "Adrenal Cortical Carcinoma", "Adrenal Cortical Carcinomas", "adrenal cortex cancer", "adrenal cortical carcinoma", "adrenocortical cancer", "carcinoma, adrenocortical"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10001388>, <http://www.ebi.ac.uk/efo/EFO_0003093>, <http://purl.obolibrary.org/obo/DOID_3948>, <http://purl.obolibrary.org/obo/HP_0006744>, <http://purl.bioontology.org/ontology/MSH/D018268>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_3948>, <http://bioonto.de/mesh.owl#C19.053.098.265.750>, <http://bioonto.de/mesh.owl#D018268>, <http://bioonto.de/mesh.owl#C19.053.347.500.750>, <http://bioonto.de/mesh.owl#C04.588.322.078.265.750>, <http://bioonto.de/mesh.owl#C19.344.078.265.750>, <http://bioonto.de/mesh.owl#C04.557.470.200.025.152>, <http://purl.bioontology.org/ontology/PDQ/CDR0000038758>, <http://purl.org/obo/owl/HP#HP_0006744>, <http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl#phenodb:2455> . 
+<http://tcga.aksw.org/disease/PAAD>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/PAAD> ;
+                                  rdfs:label  "Pancreatic adenocarcinoma" ;
+                                  tcga:label  "Pancreatic adenocarcinoma" ;
+                                  tcga:acronym  "PAAD" ;
+                                  tcga:synonyms "Pancreatic adenocarcinoma", "Pancreas Adenocarcinoma", "Adenocarcinoma of Pancreas", "Adenocarcinoma of the Pancreas", "Adenocarcinoma - pancreas"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10051971>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8294>, <http://purl.bioontology.org/ontology/OMIM/MTHU017773>, <http://purl.obolibrary.org/obo/HP_0006725>, <http://purl.org/obo/owl/HP#HP_0006725> . 
+<http://tcga.aksw.org/disease/KICH>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/KICH> ;
+                                  rdfs:label  "chromophobe renal cell carcinoma" ;
+                                  tcga:label  "Kidney Chromophobe" ;
+                                  tcga:acronym  "KICH" ;
+                                  tcga:synonyms "Kidney Chromophobe", "Chromophobe Cell Carcinoma of the Kidney", "Chromophobe Carcinoma of Kidney", "Chromophobe Carcinoma of the Kidney", "Chromophobe Adenocarcinoma", "Chromophobe Carcinoma", "Renal Cell Carcinoma, Chromophobe Type", "Chromophobe Cell Carcinoma of Kidney", "Chromophobe carcinoma (morphologic abnormality)", "chromophobe adenocarcinoma", "Chromophobe carcinoma", "Renal cell carcinoma, chromophobe cell (morphologic abnormality)", "Chromophobe cell renal carcinoma"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4146>, <http://www.ebi.ac.uk/efo/EFO_0000335>, <http://www.semanticweb.org/david/ontologies/2013/0/pathLex.owl#1.3.6.1.4.1.19376.1.8.2.1.1079> . 
+<http://tcga.aksw.org/disease/SARC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/SARC> ;
+                                  rdfs:label  "Sarcoma" ;
+                                  tcga:label  "Sarcoma" ;
+                                  tcga:acronym  "SARC" ;
+                                  tcga:synonyms "Sarcoma", "Sarcoma, NOS", "Soft tissue tumor, malignant", "Mesenchymal tumour, malignant", "Sarcoma, no ICD-O subtype", "Mesenchymal tumor, malignant", "Soft tissue sarcoma", "Malignant mesenchymal tumor", "Sarcoma, no ICD-O subtype (morphologic abnormality)", "Malignant mesenchymal tumour", "Soft tissue tumour, malignant", "Sarcoma (disorder)", "SARCOMA OF THE SOFT TISSUE AND BONE", "SARCOMA, MALIGNANT", "SARCOMA OF SOFT TISSUE AND BONE", "MESENCHYMAL TUMOR, MALIGNANT", "MAL NEO SOFT TISSUE HEAD", "Malignant Tumor of Soft Tissue", "MAL NEO SOFT TIS THORAX", "Malignant Neoplasm of Soft Tissue", "Malignant Tumor of the Soft Tissue", "Sarcoma of the Soft Tissue and Bone", "Malignant neoplasm of connective and other soft tissue", "MAL NEO SOFT TISSUE NEC", "MAL NEO SOFT TISSUE LEG", "Soft Tissue Sarcoma", "Malignant Soft Tissue Neoplasm", "Malignant tumour of soft tissue", "Malignant neoplasm of connective and other soft tissue of head, face, and neck", "Malignant neoplasm of connective and other soft tissue of upper limb, including shoulder", "MAL NEO SOFT TISSUE NOS", "MAL NEO SOFT TIS PELVIS", "Sarcoma of Soft Tissue and Bone", "Malignant Neoplasm of the Soft Tissue", "MAL NEO SOFT TIS ABDOMEN", "Connective Tissue Sarcoma", "MSarcoma NOS", "CONNECTIVE SOFT TISSUE NEOPL", "MAL NEOPL TRUNK NOS", "Sarcoma of the Soft Tissue", "Sarcoma of Soft Tissue", "Malignant Soft Tissue Tumor", "Connective and Soft Tissue Neoplasms", "NEOPL CONNECTIVE SOFT TISSUE", "Malignant neoplasm of connective and other soft tissue of pelvis", "Malignant neoplasm of connective and other soft tissue of trunk, unspecified", "Malignant neoplasm of soft tissue (disorder)", "MSarcoma NOS (morphologic abnormality)", "connective and soft tissue neoplasm", "Neoplasms, Connective and Soft Tissue", "Malignant neoplasm of connective and other soft tissue of lower limb, including hip", "Malignant neoplasm of connective and other soft tissue (disorder)", "Malignant neoplasm of other specified sites of connective and other soft tissue", "Malignant neoplasm of connective and other soft tissue of abdomen", "tumor of soft tissue and skeleton", "Malignant neoplasm of connective and other soft tissue, site unspecified", "Malignant neoplasm of connective and other soft tissue of thorax", "MAL NEO SOFT TISSUE ARM", "Sarcomas, Soft Tissue", "Spindle Cell Sarcomas", "Sarcomas", "Soft Tissue Sarcomas", "Sarcomas, Spindle Cell", "Sarcoma, Epithelioid", "Sarcoma, Soft Tissue", "Sarcoma, Spindle Cell", "Epithelioid Sarcoma", "Epithelioid Sarcomas", "Spindle Cell Sarcoma", "Sarcomas, Epithelioid", "SARCOMA BONE", "sarcoma 180"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/SNOMEDCT/2424003>, <http://purl.bioontology.org/ontology/SNOMEDCT/424413001>, <http://purl.bioontology.org/ontology/MDR/10039491>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9118>, <http://purl.bioontology.org/ontology/OMIM/MTHU022273>, <http://www.ebi.ac.uk/efo/EFO_0000691>, <http://purl.obolibrary.org/obo/DOID_1115>, <http://www.owl-ontologies.com/Ontology1382619094.owl#RID4521>, <http://purl.bioontology.org/ontology/RCD/Xa99e>, <http://purl.obolibrary.org/obo/HP_0100242>, <http://purl.bioontology.org/ontology/MSH/D012509>, <http://purl.bioontology.org/ontology/CST/SARCOMA>, <http://purl.bioontology.org/ontology/WHO/1047>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_1115>, <http://www.co-ode.org/ontologies/galen#Sarcoma>, <http://bioonto.de/mesh.owl#D012509>, <http://bioonto.de/mesh.owl#C04.557.450.795>, <http://www.owl-ontologies.com/Ontology1358660052.owl#Sarcoma>, <http://purl.bioontology.org/ontology/CSP/2000-8986>, <http://www.ifomis.org/acgt/1.0#Sarcoma>, <http://www.owl-ontologies.com/Ontology1298855822.owl#Sarcoma>, <http://purl.org/obo/owl/MP#MP_0002032>, <http://purl.org/obo/owl/HP#HP_0100242>, <http://www.semanticweb.org/ontologies/2009/9/12/Ontology1255323704656.owl#Sarcoma>, <http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl#phenodb:2528>, <http://purl.bioontology.org/ontology/ICPC2P/A79013>, <http://purl.obolibrary.org/obo/OMIT_0000204>, <http://vip.creatis.insa-lyon.fr/ontovip/v1.0/vip-pathological-object.owl#sarcoma> . 
+<http://tcga.aksw.org/disease/CESC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/CESC> ;
+                                  rdfs:label  "Cervical" ;
+                                  tcga:label  "Cervical" ;
+                                  tcga:acronym  "CESC" ;
+                                  tcga:synonyms "Cervical", "Cervical (qualifier value)", "Cx - Cervical", "CX - Cervical"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/SNOMEDCT/261064006>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12844>, <http://purl.bioontology.org/ontology/RCD/X9097>, <http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl#phenodb:1414>, <http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl#phenodb:1428> . 
+<http://tcga.aksw.org/disease/OV>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/OV> ;
+                                  rdfs:label  "Ovarian serous cystadenocarcinoma" ;
+                                  tcga:label  "Ovarian serous cystadenocarcinoma" ;
+                                  tcga:acronym  "OV" ;
+                                  tcga:synonyms "Ovarian serous cystadenocarcinoma", "serous cystadenocarcinoma of the ovary", "cystadenocarcinoma of the ovary, serous", "ovary cancer, serous cystadenocarcinoma", "ovarian cancer, serous cystadenocarcinoma"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7978>, <http://purl.obolibrary.org/obo/DOID_5746>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_5746>, <http://purl.bioontology.org/ontology/PDQ/CDR0000039950> . 
+<http://tcga.aksw.org/disease/READ>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/READ> ;
+                                  rdfs:label  "Rectal adenocarcinoma" ;
+                                  tcga:label  "Rectal adenocarcinoma" ;
+                                  tcga:acronym  "READ" ;
+                                  tcga:synonyms "Rectal adenocarcinoma", "Adenocarcinoma - rectum", "Adenocarcinoma of Rectum", "Adenocarcinoma of the Rectum"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10038019>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9383> . 
+<http://tcga.aksw.org/disease/KIRP>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/KIRP> ;
+                                  rdfs:label  "papillary renal cell carcinoma" ;
+                                  tcga:label  "Papillary Kidney" ;
+                                  tcga:acronym  "KIRP" ;
+                                  tcga:synonyms "Papillary Kidney", "Chromophil Carcinoma of Kidney", "Chromophil Carcinoma of the Kidney", "Papillary (Chromophil) Renal Cell Carcinoma", "Chromophil Renal Cell Carcinoma", "Chromophil Carcinoma of kidney", "sporadic papillary renal cell carcinoma", "Papillary renal cell carcinoma", "Chromophil carcinoma of kidney"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6975>, <http://purl.bioontology.org/ontology/OMIM/MTHU017775>, <http://www.ebi.ac.uk/efo/EFO_0000640>, <http://purl.obolibrary.org/obo/DOID_4465>, <http://purl.obolibrary.org/obo/HP_0006766>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_4465>, <http://www.semanticweb.org/david/ontologies/2013/0/pathLex.owl#1.3.6.1.4.1.19376.1.8.2.1.2546>, <http://purl.org/obo/owl/HP#HP_0006766> . 
+<http://tcga.aksw.org/disease/STAD>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/STAD> ;
+                                  rdfs:label  "adenocarcinoma of the stomach" ;
+                                  tcga:label  "Stomach adenocarcinoma" ;
+                                  tcga:acronym  "STAD" ;
+                                  tcga:synonyms "Stomach adenocarcinoma", "gastric cancer, adenocarcinoma", "stomach cancer, adenocarcinoma", "stomach, adenocarcinoma of the"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/PDQ/CDR0000043720> . 
+<http://tcga.aksw.org/disease/LIHC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/LIHC> ;
+                                  rdfs:label  "liver cell carcinoma" ;
+                                  tcga:label  "Liver hepatocellular carcinoma" ;
+                                  tcga:acronym  "LIHC" ;
+                                  tcga:synonyms "Liver hepatocellular carcinoma", "Hepatocellular carcinoma", "Hepatoma"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/ICD10/C22.0>, <http://purl.bioontology.org/ontology/ICD10CM/C22.0> . 
+<http://tcga.aksw.org/disease/BLCA>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/BLCA> ;
+                                  rdfs:label  "Bladder cancer" ;
+                                  tcga:label  "Bladder cancer" ;
+                                  tcga:acronym  "BLCA" ;
+                                  tcga:synonyms "Bladder cancer", "carcinoma of the bladder", "cancer of the bladder", "urinary bladder cancer"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10005003>, <http://purl.bioontology.org/ontology/OMIM/109800>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_5428>, <http://purl.bioontology.org/ontology/PDQ/CDR0000038767>, <http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl#phenodb:2481> . 
+<http://tcga.aksw.org/disease/LAML>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/LAML> ;
+                                  rdfs:label  "Acute Myeloid Leukemia" ;
+                                  tcga:label  "Acute Myeloid Leukemia" ;
+                                  tcga:acronym  "LAML" ;
+                                  tcga:synonyms "Acute Myeloid Leukemia", "Acute non-lymphocytic leukemia", "Acute myeloblastic leukemia", "Acute myeloid leukaemia", "Acute myeloblastic leukaemia", "Acute myelocytic leukemia", "Acute myeloid leukaemia, no ICD-O subtype", "Acute myelocytic leukaemia", "Acute myeloid leukemia, no ICD-O subtype", "Acute myelogenous leukemia", "Acute myeloid leukemia, no ICD-O subtype (morphologic abnormality)", "Acute non-lymphocytic leukaemia", "Acute granulocytic leukaemia", "Acute granulocytic leukemia", "Acute myelogenous leukaemia", "Acute myeloid leukemia - category", "Acute myeloid leukaemia - category", "Acute myeloid leukemia - category (morphologic abnormality)", "Acute Myelogenous Leukemia", "Hematopoeitic - Acute Myleogenous Leukemia (AML)", "ANLL", "Acute Nonlymphocytic Leukemia", "AML - Acute Myeloid Leukemia", "Acute Myeloblastic Leukemia", "Acute Myelogenous Leukemias", "Acute Myelocytic Leukemia", "AML", "Leukemia, Myelocytic, Acute", "Leukemia, Myeloid, Acute", "acute myeloid leukemia without mention of remission", "Leukemia, Acute Myeloid", "Nonlymphocytic Leukemias, Acute", "acute myeloid leukaemia, disease", "Acute Nonlymphoblastic Leukemia", "Myeloblastic Leukemias, Acute", "Acute Myeloblastic Leukemias", "Leukemia, Nonlymphoblastic, Acute", "Myeloid Leukemia, Acute", "Leukemias, Acute Nonlymphocytic", "Leukemia, Acute Myelocytic", "Leukemia, Acute Nonlymphocytic", "Leukemia, Nonlymphocytic, Acute", "Acute Myelocytic Leukemias", "Nonlymphoblastic Leukemias, Acute", "Leukemia, Acute Myeloblastic", "acute myeloid leukemia in remission (disorder)", "Leukemia, Myelogenous, Acute", "Myeloid Leukemia, Acute, M2", "Leukemias, Acute Myelocytic", "Myelogenous Leukemias, Acute", "ANLL in Remission", "Acute Nonlymphoblastic Leukemias", "Myeloid Leukemias, Acute", "Leukemia, Myeloblastic, Acute", "Acute Myeloid Leukemia with Maturation", "Leukemias, Acute Myeloblastic", "Myelocytic Leukemias, Acute", "acute myeloid leukemia in remission", "Nonlymphoblastic Leukemia, Acute", "Leukemia, Myeloid, Acute, M1", "Myeloid Leukemia, Acute, M1", "acute myeloid leukaemia", "Acute Nonlymphocytic Leukemias", "Leukemias, Acute Myeloid", "AML - acute Myeloid Leukemia", "Leukemias, Acute Nonlymphoblastic", "Acute Myeloid Leukemias", "Leukemia, Acute Myelogenous", "acute myeloblastic leukemia (disorder)", "Acute Myeloid Leukemia without Maturation", "Leukemia, Acute Nonlymphoblastic", "Myelocytic Leukemia, Acute", "Myelogenous Leukemia, Acute", "Leukemias, Acute Myelogenous", "acute myeloid leukaemia - category", "acute non-lymphocytic leukaemia", "Nonlymphocytic Leukemia, Acute", "Myeloblastic Leukemia, Acute", "Leukemia, Myeloid, Acute, M2", "Leukemia, Myelocytic, acute", "acute nonlymphocytic leukemia", "leukemia, acute nonlymphocytic", "leukemia, acute myeloid"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/SNOMEDCT/17788007>, <http://purl.bioontology.org/ontology/SNOMEDCT/413443009>, <http://purl.bioontology.org/ontology/MDR/10000886>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3171>, <http://purl.bioontology.org/ontology/OMIM/MTHU007776>, <http://www.ebi.ac.uk/efo/EFO_0000222>, <http://purl.obolibrary.org/obo/DOID_9119>, <http://purl.obolibrary.org/obo/HP_0004808>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_9119>, <http://purl.bioontology.org/ontology/MEDLINEPLUS/C0023467>, <http://purl.bioontology.org/ontology/PDQ/CDR0000043424>, <http://purl.org/obo/owl/HP#HP_0004808>, <http://purl.obolibrary.org/obo/DERMO_0001209>, <http://purl.bioontology.org/ontology/SNMI/M-98613> . 
+<http://tcga.aksw.org/disease/LGG>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/LGG> ;
+                                  rdfs:label  "Low grade glioma of brain" ;
+                                  tcga:label  "Lower Grade Glioma" ;
+                                  tcga:acronym  "LGG" ;
+                                  tcga:synonyms "Lower Grade Glioma", "Low-grade glioma of brain", "Benign glioma of brain", "Low grade glioma of brain (disorder)"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/SNOMEDCT/429408002> . 
+<http://tcga.aksw.org/disease/PRAD>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/PRAD> ;
+                                  rdfs:label  "Prostate adenocarcinoma" ;
+                                  tcga:label  "Prostate adenocarcinoma" ;
+                                  tcga:acronym  "PRAD" ;
+                                  tcga:synonyms "Prostate adenocarcinoma", "Adenocarcinoma of the Prostate", "Adenocarcinoma of Prostate", "Prostate Neoplasm", "Neoplasm, Prostatic", "Adenocarcinoma of prostate (disorder)", "PROSTATE NEOPL", "Prostate Neoplasms", "Cancers, Prostatic", "adenocarcinoma of prostate", "Cancer, Prostatic", "Prostatic Neoplasm", "Cancer of the Prostate", "PROSTATIC NEOPL", "Prostatic Cancer", "Cancer of Prostate", "Prostatic Cancers", "NEOPL PROSTATE", "Neoplasm, Prostate", "Cancers, Prostate", "NEOPL PROSTATIC", "Prostate Cancers", "Prostate Cancer", "Neoplasms, Prostatic", "Cancer, Prostate", "Prostatic Neoplasms", "Neoplasms, Prostate", "prostate adenocarcinoma", "adenocarcinoma of prostate (disorder)"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2919>, <http://www.ebi.ac.uk/efo/EFO_0000673>, <http://purl.obolibrary.org/obo/DOID_2526> . 
+<http://tcga.aksw.org/disease/LUSC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/LUSC> ;
+                                  rdfs:label  "Lung squamous cell carcinoma" ;
+                                  tcga:label  "Lung squamous carcinoma" ;
+                                  tcga:acronym  "LUSC" ;
+                                  tcga:synonyms "Lung squamous carcinoma", "squamous cell carcinoma of lung (disorder)", "Epidermoid cell carcinoma of the lung"; 
+                                  tcga:uri <http://purl.obolibrary.org/obo/DOID_3907>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_3907>, <http://purl.org/obo/owl/MP#MP_0008717> . 
+<http://tcga.aksw.org/disease/SKCM>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/SKCM> ;
+                                  rdfs:label  "Cutaneous melanoma" ;
+                                  tcga:label  "Cutaneous melanoma" ;
+                                  tcga:acronym  "SKCM" ;
+                                  tcga:synonyms "Cutaneous melanoma", "Skin, Melanoma", "Melanoma of the Skin", "Malignant Melanoma of Skin Stage Unspecified", "Melanoma of Skin", "Malignant Cutaneous Melanoma", "Skin Melanoma", "Malignant Melanoma (of Skin), Stage Unspecified", "Malignant Melanoma of Skin", "Malignant melanoma of skin NOS", "Melanoma of skin, site unspecified", "Malignant melanoma of skin of other and unspecified parts of face", "Malignant melanoma of skin (disorder)", "Malignant melanoma of other specified skin site", "Malignant melanoma of other specified sites of skin", "Malignant melanoma of skin NOS (disorder)", "Cutaneous malignant melanoma", "MAL MELANOM FACE NEC/NOS", "MALIG MELANOMA SKIN NOS", "XMalignant melanoma of skin, unspecified", "MM - Malignant melanoma of skin", "Malignant melanoma of skin, NOS", "XMalignant melanoma of skin, unspecified (disorder)", "MALIG MELANOMA SKIN NEC", "Malignant melanoma of other specified skin site (disorder)", "cancer of skin"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3510>, <http://purl.bioontology.org/ontology/OMIM/MTHU035644>, <http://www.ebi.ac.uk/efo/EFO_0000389>, <http://purl.obolibrary.org/obo/HP_0012056> . 
+<http://tcga.aksw.org/disease/UCEC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/UCEC> ;
+                                  rdfs:label  "Endometrial Adenocarcinoma" ;
+                                  tcga:label  "Uterine Corpus Endometrial Carcinoma" ;
+                                  tcga:acronym  "UCEC" ;
+                                  tcga:synonyms "Uterine Corpus Endometrial Carcinoma", "ADENOCARCINOMA OF THE ENDOMETRIUM", "ADENOCARCINOMA, ENDOMETRIAL, MALIGNANT", "ADENOCARCINOMA OF ENDOMETRIUM", "endometrial endometrioid adenocarcinoma", "adenocarcinoma of endometrium (disorder)", "endometrioid adenomas and carcinomas (morphologic abnormality)", "endometrioid adenoma or carcinoma NOS (morphologic abnormality)", "endometrial endometrioid adenocarcinoma with squamous differentiation", "endometrioid carcinoma of Endometrium", "endometrial adenoacanthoma", "adenocarcinoma of uterus (disorder)", "adenocarcinoma of the Endometrium", "adenocarcinoma of the uterus", "uterus cancer, adenocarcinoma", "uterine corpus cancer, adenocarcinoma", "uterine cancer, adenocarcinoma"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10014720>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7359>, <http://purl.obolibrary.org/obo/DOID_2870>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_2870>, <http://purl.bioontology.org/ontology/PDQ/CDR0000039958> . 
+<http://tcga.aksw.org/disease/COAD>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/COAD> ;
+                                  rdfs:label  "Colon adenocarcinoma" ;
+                                  tcga:label  "Colon adenocarcinoma" ;
+                                  tcga:acronym  "COAD" ;
+                                  tcga:synonyms "Colon adenocarcinoma", "Adenocarcinoma - colon", "Adenocarcinoma of the Colon", "Colonic Adenocarcinoma", "Adenocarcinoma of Colon", "Colonic adenocarcinoma", "adenocarcinoma of colon"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4349>, <http://purl.obolibrary.org/obo/DOID_234>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_234>, <http://purl.org/obo/owl/MP#MP_0009314> . 
+<http://tcga.aksw.org/disease/HNSC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/HNSC> ;
+                                  rdfs:label  "Head and Neck squamous cell carcinoma" ;
+                                  tcga:label  "Head and Neck squamous cell carcinoma" ;
+                                  tcga:acronym  "HNSC" ;
+                                  tcga:synonyms "Head and Neck squamous cell carcinoma", "Squamous Cell Carcinoma of Head and Neck", "Squamous Cell Carcinoma of the Head and Neck", "SCCHN", "Head and neck squamous cell carcinoma, NOS", "squamous cell carcinoma of the head and neck", "Head and Neck Carcinoma", "Carcinoma of Head and Neck", "carcinoma of the head and neck"; 
+                                  tcga:uri <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34447>, <http://www.ebi.ac.uk/efo/EFO_0000181>, <http://purl.obolibrary.org/obo/DOID_5520>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_5520> . 
+<http://tcga.aksw.org/disease/LUAD>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/LUAD> ;
+                                  rdfs:label  "Lung adenocarcinoma" ;
+                                  tcga:label  "Lung adenocarcinoma" ;
+                                  tcga:acronym  "LUAD" ;
+                                  tcga:synonyms "Lung adenocarcinoma", "Adenocarcinoma of Lung", "Adenocarcinoma of the Lung", "adenocarcinoma of lung (disorder)", "nonsmall cell adenocarcinoma", "lung adenocarcinoma"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10025031>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3512>, <http://purl.bioontology.org/ontology/OMIM/MTHU017417>, <http://www.ebi.ac.uk/efo/EFO_0000571>, <http://purl.obolibrary.org/obo/DOID_3910>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_3910>, <http://purl.org/obo/owl/MP#MP_0002027> . 
+<http://tcga.aksw.org/disease/KIRC>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/KIRC> ;
+                                  rdfs:label  "clear cell carcinoma of kidney" ;
+                                  tcga:label  "Kidney renal clear cell carcinoma" ;
+                                  tcga:acronym  "KIRC" ;
+                                  tcga:synonyms "Kidney renal clear cell carcinoma", "Renal cell carcinoma", "Renal cell adenocarcinoma", "Clear cell carcinoma of kidney (disorder)", "Carcinoma of kidney", "Adenocarcinoma of kidney", "Grawitz tumor", "Grawitz tumour"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/SNOMEDCT/254915003>, <http://purl.bioontology.org/ontology/RCD/X78Yx>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_4467> . 
+<http://tcga.aksw.org/disease/THCA>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/THCA> ;
+                                  rdfs:label  "Thyroid carcinoma" ;
+                                  tcga:label  "Thyroid carcinoma" ;
+                                  tcga:acronym  "THCA" ;
+                                  tcga:synonyms "Thyroid carcinoma", "head and neck cancer, Thyroid", "thyroid cancer", "ADENOCARCINOMA THYROID", "CARCINOMA THYROID", "CARCINOMA PAPILLARY THYROID", "THYROID NEOPLASM MALIGNANT"; 
+                                  tcga:uri <http://purl.bioontology.org/ontology/MDR/10043702>, <http://purl.bioontology.org/ontology/OMIM/MTHU021058>, <http://www.ebi.ac.uk/efo/EFO_0002892>, <http://purl.obolibrary.org/obo/DOID_3963>, <http://purl.obolibrary.org/obo/HP_0002890>, <http://purl.bioontology.org/ontology/CST/CARCINOMA+THYR>, <http://www.owl-ontologies.com/NPOntology.owl#DOID_3963>, <http://purl.org/obo/owl/HP#HP_0002890> . 
+<http://tcga.aksw.org/disease/BRCA>  a  tcga:disease ;
+                                  tcga:ref  <http://tcga.deri.ie/graph/BRCA> ;
+                                  rdfs:label  "invasive carcinoma of breast" ;
+                                  tcga:label  "Breast invasive carcinoma" ;
+                                  tcga:acronym  "BRCA" ;
+                                  tcga:synonyms "Breast invasive carcinoma"; 
+                                  tcga:uri <http://purl.org/obo/owl/DOID#InvasiveCarcinomaOfBreast> . 
