@@ -54,17 +54,17 @@ public class Main {
 	        Model model = null;
 	        
 	        ////////////////////// for testing purpose only //////////////////////////
-	        lstIDs = new ArrayList<String>();
-//	        lstIDs.add("24407023");lstIDs.add("24300559");lstIDs.add("24463490");lstIDs.add("24436845");lstIDs.add("24396034");lstIDs.add("24475018");
-//	        lstIDs.add("24463996");lstIDs.add("24452594");lstIDs.add("24440614");lstIDs.add("24403485");lstIDs.add("24375787");lstIDs.add("24374177");
-//	        lstIDs.add("24350420");lstIDs.add("24325055");lstIDs.add("24324465");lstIDs.add("24313617");lstIDs.add("24313043");lstIDs.add("24309609");
-//	        lstIDs.add("24305708");lstIDs.add("24296882");lstIDs.add("23233044");lstIDs.add("23314866");lstIDs.add("24102374");lstIDs.add("23709676");
-//	        lstIDs.add("24177041");lstIDs.add("24002543");lstIDs.add("23811386");lstIDs.add("23777451");lstIDs.add("23666700");lstIDs.add("23464222");
-//	        lstIDs.add("23055020");lstIDs.add("22998857");lstIDs.add("23588197");lstIDs.add("23598976");lstIDs.add("23707302");lstIDs.add("23846349");
-//	        lstIDs.add("24218181");lstIDs.add("24225484");lstIDs.add("24236654");lstIDs.add("24240593");lstIDs.add("24280990");lstIDs.add("24296882");
-//	        lstIDs.add("24305708");lstIDs.add("24309609");lstIDs.add("24313043");lstIDs.add("24394385");lstIDs.add("24411092");lstIDs.add("24393633");
-//	        lstIDs.add("24411087");lstIDs.add("24388700");lstIDs.add("24411089");lstIDs.add("24472679");lstIDs.add("24474195");lstIDs.add("24474395");
-//	        lstIDs.add("24394591");lstIDs.add("24398227");lstIDs.add("24398226");lstIDs.add("24393634");
+//	        lstIDs = new ArrayList<String>();
+//	        lstIDs.add("23966394");lstIDs.add("23675467");lstIDs.add("23178488");lstIDs.add("19472918");lstIDs.add("18275850");lstIDs.add("24377578");
+//	        lstIDs.add("23482336");lstIDs.add("23317270");lstIDs.add("21609483");lstIDs.add("24455749");lstIDs.add("23692254");lstIDs.add("23362149");
+//	        lstIDs.add("23211419");lstIDs.add("22136433");lstIDs.add("22136433");lstIDs.add("24496626");lstIDs.add("24400073");lstIDs.add("24396288");
+//	        lstIDs.add("22998857");lstIDs.add("24376795");lstIDs.add("24321550");lstIDs.add("24492705");lstIDs.add("23709676");lstIDs.add("23055020");
+//	        lstIDs.add("22811704");lstIDs.add("22264718");lstIDs.add("21251473");lstIDs.add("24102374");lstIDs.add("23314866");lstIDs.add("22918816");
+//	        lstIDs.add("22723265");lstIDs.add("21995959");lstIDs.add("19466120");lstIDs.add("19327015");lstIDs.add("18813745");lstIDs.add("24463490");
+//	        lstIDs.add("24396034");lstIDs.add("24436845");lstIDs.add("24202301");lstIDs.add("24141111");lstIDs.add("24114817");lstIDs.add("23994163");
+//	        lstIDs.add("21631174");lstIDs.add("21401713");lstIDs.add("19396560");lstIDs.add("9986909");lstIDs.add("9927476");lstIDs.add("24501384");
+//	        lstIDs.add("24475018");lstIDs.add("24480927");lstIDs.add("24463996");lstIDs.add("24452594");lstIDs.add("24440614");lstIDs.add("24305708");
+	        
 	        //////////////////////////////////////////////////////////////////////////
 	        
 	        
